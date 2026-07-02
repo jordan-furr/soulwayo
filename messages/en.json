@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "Soulwayo — Healing, Embodiment & Remembrance",
+    "description": "Soulwayo is a space for healing, embodiment and remembrance — trauma therapy, somatic healing, ceremony and retreats with Sarah & Johannes."
+  },
+  "nav": {
+    "approach": "Approach",
+    "work": "Our Work",
+    "about": "About",
+    "retreats": "Retreats",
+    "nextRetreat": "Next Retreat",
+    "contact": "Contact"
+  },
+  "cta": {
+    "getInTouch": "Get in touch"
+  },
+  "hero": {
+    "tagline": "A space for healing, embodiment & remembrance.",
+    "sub": "Healing happens when the body feels safe enough to return to presence.",
+    "explore": "Explore our approach ↓"
+  },
+  "space": {
+    "eyebrow": "For when the mind cannot carry it further",
+    "headline": "There comes a moment where overwhelm, disconnection and old patterns become too heavy to hold alone.",
+    "bodyPre": "Soulwayo is the space that meets you there — where the nervous system can soften, emotions can move, and life can begin to flow again. We do not work",
+    "bodyOn": "on",
+    "bodyMid": "you. We work",
+    "bodyWith": "with",
+    "bodyPost": "you — in presence, safety and truth.",
+    "quote": "Healing is not about becoming someone new — but about remembering who you are beneath survival, protection and emotional overwhelm."
+  },
+  "pillars": {
+    "eyebrow": "Our Work",
+    "intro": "We do not see trauma as a defect. We see it as an intelligent adaptation — a protective response that can gently unwind when safety returns.",
+    "p1": {
+      "title": "Trauma Therapy & Somatic Healing",
+      "body": "Emotional processing, nervous system regulation and trauma integration — through psychotherapy and body-based work. A slow return to inner stability and self-trust."
+    },
+    "p2": {
+      "title": "Ceremony, Fire & Cacao",
+      "body": "Meditation, Grandfather Fire and sacred cacao. Space beyond the thinking mind — for heart opening, emotional release and reconnection to intuition and truth."
+    },
+    "p3": {
+      "title": "Retreats",
+      "body": "Immersive healing journeys in nature — silence, ceremony and guided inner work. Here, healing is not rushed; it unfolds in its own intelligent rhythm."
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "name": "Sarah & Johannes",
+    "body": "Partners in life and in work, united by a shared path of healing, presence and transformation. Our work was born from lived experience and many years of accompanying people through emotional healing, trauma integration and embodied transformation.",
+    "quote": "We do not see healing as a technique. We see it as a relational field — something that happens in safety, presence and truth."
+  },
+  "retreats": {
+    "eyebrow": "Soulwayo Retreats",
+    "headline": "A space to return to yourself.",
+    "quote": "A call to slow down. To feel again. To breathe again. To return.",
+    "body": "Held by nature, presence and deep emotional safety. You are not asked to perform, fix or achieve. You are invited to arrive — exactly as you are.",
+    "tag1": "Trauma-informed inner work",
+    "tag2": "Somatic & nervous system healing",
+    "tag3": "Ceremony & presence",
+    "tag4": "Integration in nature"
+  },
+  "flyer": {
+    "eyebrow": "Next Retreat",
+    "title": "Awaken Your True Path",
+    "date": "Retreat · 10th – 13th September 2026",
+    "tag1": "Back to Essence",
+    "tag2": "Back to the Body",
+    "tag3": "Back to Inner Truth",
+    "body": "A journey of initiation, alignment and inner leadership. Shed old skins. Choose your soul path anew. Walk beside us in presence and reverence.",
+    "cta": "Apply for this retreat"
+  },
+  "final": {
+    "eyebrow": "A quiet invitation",
+    "headline": "If your heart feels a quiet yes, we would be honoured to walk this journey with you.",
+    "body": "Soulwayo is not a place to become someone else. It is a space to return — gently, honestly, and in your own timing.",
+    "closingLine1": "To your body.",
+    "closingLine2": "To your breath.",
+    "closingLine3": "To your life."
+  },
+  "footer": {
+    "tagline": "Healing · Embodiment · Remembrance",
+    "contact": "Contact us",
+    "legal": "A complementary, trauma-informed approach — not a substitute for medical or psychiatric care. © 2026 Soulwayo. All rights reserved."
+  }
+}

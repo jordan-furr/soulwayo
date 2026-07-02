@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "Soulwayo — Heilung, Verkörperung & Erinnern",
+    "description": "Soulwayo ist ein Raum für Heilung, Verkörperung und Erinnern — Traumatherapie, somatische Heilung, Zeremonie und Retreats mit Sarah & Johannes."
+  },
+  "nav": {
+    "approach": "Ansatz",
+    "work": "Unsere Arbeit",
+    "about": "Über uns",
+    "retreats": "Retreats",
+    "nextRetreat": "Nächstes Retreat",
+    "contact": "Kontakt"
+  },
+  "cta": {
+    "getInTouch": "Kontakt aufnehmen"
+  },
+  "hero": {
+    "tagline": "Ein Raum für Heilung, Verkörperung & Erinnern.",
+    "sub": "Heilung geschieht, wenn der Körper sich sicher genug fühlt, um in die Präsenz zurückzukehren.",
+    "explore": "Unseren Ansatz entdecken ↓"
+  },
+  "space": {
+    "eyebrow": "Für den Moment, in dem der Verstand nicht weitertragen kann",
+    "headline": "Es kommt ein Moment, in dem Überforderung, Trennung und alte Muster zu schwer werden, um sie allein zu tragen.",
+    "bodyPre": "Soulwayo ist der Raum, der dich dort abholt — wo das Nervensystem weich werden darf, Emotionen sich bewegen können und das Leben wieder zu fließen beginnt. Wir arbeiten nicht",
+    "bodyOn": "an",
+    "bodyMid": "dir. Wir arbeiten",
+    "bodyWith": "mit",
+    "bodyPost": "dir — in Präsenz, Sicherheit und Wahrheit.",
+    "quote": "Heilung bedeutet nicht, jemand Neues zu werden — sondern sich daran zu erinnern, wer du unter Überleben, Schutz und emotionaler Überforderung bist."
+  },
+  "pillars": {
+    "eyebrow": "Unsere Arbeit",
+    "intro": "Wir sehen Trauma nicht als Defekt. Wir sehen es als eine intelligente Anpassung — eine schützende Reaktion, die sich sanft lösen kann, wenn Sicherheit zurückkehrt.",
+    "p1": {
+      "title": "Traumatherapie & somatische Heilung",
+      "body": "Emotionale Verarbeitung, Regulation des Nervensystems und Traumaintegration — durch Psychotherapie und körperbasierte Arbeit. Eine langsame Rückkehr zu innerer Stabilität und Selbstvertrauen."
+    },
+    "p2": {
+      "title": "Zeremonie, Feuer & Kakao",
+      "body": "Meditation, Großvater-Feuer und heiliger Kakao. Ein Raum jenseits des denkenden Verstandes — für Herzöffnung, emotionale Entladung und die Rückverbindung zu Intuition und Wahrheit."
+    },
+    "p3": {
+      "title": "Retreats",
+      "body": "Immersive Heilungsreisen in der Natur — Stille, Zeremonie und begleitete innere Arbeit. Hier wird Heilung nicht erzwungen; sie entfaltet sich in ihrem eigenen, intelligenten Rhythmus."
+    }
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "name": "Sarah & Johannes",
+    "body": "Partner im Leben und in der Arbeit, verbunden durch einen gemeinsamen Weg von Heilung, Präsenz und Transformation. Unsere Arbeit entstand aus gelebter Erfahrung und vielen Jahren, in denen wir Menschen durch emotionale Heilung, Traumaintegration und verkörperte Transformation begleitet haben.",
+    "quote": "Wir sehen Heilung nicht als Technik. Wir sehen sie als ein relationales Feld — etwas, das in Sicherheit, Präsenz und Wahrheit geschieht."
+  },
+  "retreats": {
+    "eyebrow": "Soulwayo Retreats",
+    "headline": "Ein Raum, um zu dir selbst zurückzukehren.",
+    "quote": "Eine Einladung, langsamer zu werden. Wieder zu fühlen. Wieder zu atmen. Zurückzukehren.",
+    "body": "Getragen von Natur, Präsenz und tiefer emotionaler Sicherheit. Du musst nichts leisten, reparieren oder erreichen. Du bist eingeladen anzukommen — genau so, wie du bist.",
+    "tag1": "Traumasensible innere Arbeit",
+    "tag2": "Somatische Heilung & Nervensystem",
+    "tag3": "Zeremonie & Präsenz",
+    "tag4": "Integration in der Natur"
+  },
+  "flyer": {
+    "eyebrow": "Nächstes Zusammenkommen",
+    "title": "Awaken Your True Path",
+    "date": "Retreat · 10.–13. September 2026",
+    "tag1": "Zurück zur Essenz",
+    "tag2": "Zurück zum Körper",
+    "tag3": "Zurück zur inneren Wahrheit",
+    "body": "Eine Reise der Initiation, Ausrichtung und inneren Führung. Alte Häute ablegen. Deinen Seelenweg neu wählen. Geh in Präsenz und Ehrfurcht an unserer Seite.",
+    "cta": "Für dieses Retreat bewerben"
+  },
+  "final": {
+    "eyebrow": "Eine stille Einladung",
+    "headline": "Wenn dein Herz ein leises Ja spürt, wäre es uns eine Ehre, diesen Weg mit dir zu gehen.",
+    "body": "Soulwayo ist kein Ort, um jemand anderes zu werden. Es ist ein Raum, um zurückzukehren — sanft, ehrlich und in deinem eigenen Tempo.",
+    "closingLine1": "Zu deinem Körper.",
+    "closingLine2": "Zu deinem Atem.",
+    "closingLine3": "Zu deinem Leben."
+  },
+  "footer": {
+    "tagline": "Heilung · Verkörperung · Erinnern",
+    "contact": "Kontakt aufnehmen",
+    "legal": "Ein ergänzender, traumasensibler Ansatz — kein Ersatz für medizinische oder psychiatrische Versorgung. © 2026 Soulwayo. Alle Rechte vorbehalten."
+  }
+}

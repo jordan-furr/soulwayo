@@ -1,0 +1,72 @@
+:root {
+  --accent: #c47a3a;
+  --accent-deep: #a85f26;
+  --cream: #f5f1ea;
+  --cream-soft: #fafaf7;
+  --cream-warm: #ece3d3;
+  --forest-deep: #14241c;
+  --forest: #1f3a2e;
+  --forest-line: #2e4a3a;
+  --ink: #42513f;
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-raleway: "Raleway", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--forest);
+  font-family: var(--font-raleway);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body.sw-menu-open {
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: rgba(196, 122, 58, 0.22);
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ── reveal-on-scroll ── */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-reveal].sw-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
