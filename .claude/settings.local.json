@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/jordanfurr/Documents/bad taste/codebases/**)",
+      "Read(//Users/jordanfurr/Documents/**)",
+      "Read(//Users/jordanfurr/**)",
+      "Bash(awk '{ print length, NR }' '/Users/jordanfurr/Downloads/Soulwayo - Standalone.html')",
+      "Bash(mkdir -p \"/private/tmp/claude-501/-Users-jordanfurr-Documents-bad-taste-codebases-soulwayo/02b54997-0f6c-4cb0-8df1-5d567a9dd5bf/scratchpad/soulwayo-design\")",
+      "Bash(unzip -o \"/Users/jordanfurr/Downloads/Soulwayo MVP landing page.zip\" -d .)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
