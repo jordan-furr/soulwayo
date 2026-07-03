@@ -16,6 +16,14 @@ export default function Footer() {
           <a href={mailtoHref("Get in touch — Soulwayo")} className={styles.contactLink}>
             {t("contact")}
           </a>
+          <a
+            href={siteConfig.instagramUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.contactLink}
+          >
+            Instagram
+          </a>
           <span className={styles.domain}>{siteConfig.domain}</span>
         </div>
       </div>

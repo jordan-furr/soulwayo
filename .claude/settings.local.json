@@ -20,7 +20,8 @@
       "Bash(git push *)",
       "Bash(sips -g pixelWidth -g pixelHeight \"/Users/jordanfurr/Documents/bad taste/codebases/soulwayo/public/images/guitar.jpeg\" \"/Users/jordanfurr/Documents/bad taste/codebases/soulwayo/public/images/sarah-johannes.jpeg\")",
       "Bash(sips -g pixelWidth -g pixelHeight \"/Users/jordanfurr/Documents/bad taste/codebases/soulwayo/public/images/sarah-johannes.jpeg\" \"/Users/jordanfurr/Documents/bad taste/codebases/soulwayo/public/images/drum.jpeg\")",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
