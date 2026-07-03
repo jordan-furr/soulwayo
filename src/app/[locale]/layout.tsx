@@ -40,8 +40,9 @@ export async function generateMetadata({
     title,
     description,
     openGraph: {
-      title,
+      title: "Soulwayo",
       description,
+      siteName: "Soulwayo",
       type: "website",
       locale: ogLocale,
       images: [
@@ -55,7 +56,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: "Soulwayo",
       description,
       images: ["/images/soulwayo-team.jpg"],
     },
