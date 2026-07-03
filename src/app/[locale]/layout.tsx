@@ -4,6 +4,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -30,9 +31,34 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
+  const title = t("title");
+  const description = t("description");
+  const ogLocale = locale === "de" ? "de_DE" : "en_US";
+
   return {
-    title: t("title"),
-    description: t("description"),
+    metadataBase: new URL(`https://${siteConfig.domain}`),
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      locale: ogLocale,
+      images: [
+        {
+          url: "/images/soulwayo-team.jpg",
+          width: 1920,
+          height: 1440,
+          alt: "Sarah & Johannes in a fireside forest ceremony",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/images/soulwayo-team.jpg"],
+    },
   };
 }
 
