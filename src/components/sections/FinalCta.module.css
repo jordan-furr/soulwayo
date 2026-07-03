@@ -1,5 +1,5 @@
 .section {
-  background: var(--cream);
+  background: #fbf7eb;
   padding: clamp(110px, 18vh, 200px) 6vw;
   text-align: center;
 }
@@ -12,13 +12,12 @@
 .logo {
   display: block;
   margin: 0 auto 34px;
-  mix-blend-mode: multiply;
 }
 
 .eyebrow {
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 11.5px;
+  font-size: 12.5px;
   letter-spacing: 0.36em;
   text-transform: uppercase;
   color: var(--accent-deep);

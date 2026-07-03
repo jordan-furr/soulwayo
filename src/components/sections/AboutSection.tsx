@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import Reveal from "@/components/Reveal";
 import styles from "./AboutSection.module.css";
-import portrait from "../../../public/images/soulwayo-portrait-1.jpg";
+import portrait from "../../../public/images/sarah-johannes.jpeg";
 
 export default function AboutSection() {
   const t = useTranslations("about");
@@ -14,7 +14,6 @@ export default function AboutSection() {
           <Image
             src={portrait}
             alt="Sarah & Johannes, portrait"
-            fill
             className={styles.image}
             sizes="(max-width: 860px) 100vw, 50vw"
           />

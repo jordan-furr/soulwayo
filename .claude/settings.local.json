@@ -16,7 +16,11 @@
       "mcp__claude-in-chrome__navigate",
       "Bash(npm run *)",
       "Bash(xargs -r kill -9)",
-      "Bash(pkill -9 -f \"next dev\")"
+      "Bash(pkill -9 -f \"next dev\")",
+      "Bash(git push *)",
+      "Bash(sips -g pixelWidth -g pixelHeight \"/Users/jordanfurr/Documents/bad taste/codebases/soulwayo/public/images/guitar.jpeg\" \"/Users/jordanfurr/Documents/bad taste/codebases/soulwayo/public/images/sarah-johannes.jpeg\")",
+      "Bash(sips -g pixelWidth -g pixelHeight \"/Users/jordanfurr/Documents/bad taste/codebases/soulwayo/public/images/sarah-johannes.jpeg\" \"/Users/jordanfurr/Documents/bad taste/codebases/soulwayo/public/images/drum.jpeg\")",
+      "Bash(git add *)"
     ]
   }
 }

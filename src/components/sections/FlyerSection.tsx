@@ -35,7 +35,7 @@ export default function FlyerSection() {
             {t("body")}
           </Reveal>
           <Reveal delay={0.24}>
-            <a href={mailtoHref("Apply for this retreat — Soulwayo")} className={styles.cta}>
+            <a href={mailtoHref("Join this retreat — Soulwayo")} className={styles.cta}>
               {t("cta")}
             </a>
           </Reveal>

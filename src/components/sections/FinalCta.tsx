@@ -19,7 +19,7 @@ export default function FinalCta() {
             width={148}
             height={148}
             className={styles.logo}
-            style={{ width: "clamp(108px, 13vw, 148px)", height: "auto" }}
+            style={{ width: "clamp(120px, 14vw, 168px)", height: "auto" }}
           />
         </Reveal>
         <Reveal className={styles.eyebrow}>{t("eyebrow")}</Reveal>

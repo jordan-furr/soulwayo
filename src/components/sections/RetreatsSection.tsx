@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import Reveal from "@/components/Reveal";
 import styles from "./RetreatsSection.module.css";
 import fireCircle from "../../../public/images/retreat-fire-circle.jpg";
-import ceremonyTent from "../../../public/images/retreat-ceremony-tent.jpg";
+import drum from "../../../public/images/drum.jpeg";
 
 export default function RetreatsSection() {
   const t = useTranslations("retreats");
@@ -28,8 +28,8 @@ export default function RetreatsSection() {
         <Reveal className={styles.grid}>
           <div className={`${styles.tile} ${styles.tileWide}`}>
             <Image
-              src={fireCircle}
-              alt="A fire circle with mats and candles in a sunlit forest clearing"
+              src={drum}
+              alt="Sarah playing a ceremonial drum inside a candlelit tipi"
               fill
               className={styles.tileImg}
               sizes="(max-width: 860px) 100vw, 60vw"
@@ -37,11 +37,10 @@ export default function RetreatsSection() {
           </div>
           <div className={styles.tile}>
             <Image
-              src={ceremonyTent}
-              alt="Sarah & Johannes in ceremony with guitar, drum, cacao and fire"
+              src={fireCircle}
+              alt="A fire circle with mats and candles in a sunlit forest clearing"
               fill
               className={styles.tileImg}
-              style={{ objectPosition: "center 18%" }}
               sizes="(max-width: 860px) 100vw, 40vw"
             />
           </div>
