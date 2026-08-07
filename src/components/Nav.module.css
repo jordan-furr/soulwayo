@@ -8,14 +8,14 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 6vw;
-  background: rgba(20, 36, 28, 0.82);
+  background: rgba(37, 66, 46, 0.82);
   backdrop-filter: blur(12px);
   box-shadow: 0 1px 0 rgba(237, 231, 218, 0.08);
   transition: background 0.55s ease, backdrop-filter 0.55s ease, box-shadow 0.55s ease;
 }
 
 .navScrolled {
-  background: rgba(20, 36, 28, 0.92);
+  background: rgba(37, 66, 46, 0.92);
   backdrop-filter: blur(12px);
   box-shadow: 0 1px 0 rgba(237, 231, 218, 0.09);
 }

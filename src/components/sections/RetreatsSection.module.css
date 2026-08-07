@@ -4,7 +4,7 @@
   overflow: hidden;
   background: radial-gradient(85% 65% at 28% 92%, rgba(196, 122, 58, 0.5) 0%, rgba(31, 58, 46, 0) 55%),
     radial-gradient(75% 65% at 88% 14%, rgba(201, 163, 160, 0.16) 0%, rgba(31, 58, 46, 0) 58%),
-    linear-gradient(178deg, #14241c 0%, #1f3a2e 55%, #1a3125 100%);
+    linear-gradient(178deg, #25422e 0%, #1f3a2e 55%, #1a3125 100%);
   padding: clamp(100px, 15vh, 180px) 6vw;
 }
 
@@ -33,7 +33,7 @@
 .eyebrow {
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 12.5px;
+  font-size: 13.5px;
   letter-spacing: 0.34em;
   text-transform: uppercase;
   color: rgba(199, 163, 160, 0.9);
@@ -70,11 +70,30 @@
   color: rgba(216, 203, 183, 0.82);
 }
 
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 32px 0 0;
+}
+
+.highlightPill {
+  padding: 9px 20px;
+  border: 1px solid rgba(237, 231, 218, 0.35);
+  border-radius: 999px;
+  background: rgba(237, 231, 218, 0.06);
+  font-family: var(--font-raleway);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: #f7f3ea;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
   gap: 20px;
-  margin-bottom: 56px;
+  margin: 56px 0 56px;
 }
 
 .tile {

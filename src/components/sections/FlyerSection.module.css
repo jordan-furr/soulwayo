@@ -4,9 +4,29 @@
   padding: clamp(84px, 12vh, 140px) 6vw;
 }
 
-.inner {
+.wrapper {
   max-width: 1080px;
   margin: 0 auto;
+}
+
+.sectionEyebrow {
+  text-align: center;
+  font-family: var(--font-raleway);
+  font-weight: 600;
+  font-size: 13.5px;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: #9a5522;
+  margin-bottom: 56px;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(110, 63, 22, 0.15);
+  margin: clamp(64px, 9vh, 100px) 0;
+}
+
+.event {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: clamp(40px, 6vw, 80px);
@@ -25,16 +45,6 @@
   border-radius: 4px;
   box-shadow: 0 40px 80px -28px rgba(72, 44, 18, 0.55), 0 0 0 1px rgba(72, 44, 18, 0.08);
   transform: rotate(-1.4deg);
-}
-
-.eyebrow {
-  font-family: var(--font-raleway);
-  font-weight: 600;
-  font-size: 12.5px;
-  letter-spacing: 0.34em;
-  text-transform: uppercase;
-  color: #9a5522;
-  margin-bottom: 24px;
 }
 
 .title {
@@ -81,6 +91,14 @@
   font-size: 16px;
   line-height: 1.8;
   color: #6b4a29;
+}
+
+.festivalPara {
+  margin: 0 0 14px;
+}
+
+.festivalPara:last-child {
+  margin-bottom: 0;
 }
 
 .cta {

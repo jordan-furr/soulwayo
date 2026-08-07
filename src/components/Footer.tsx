@@ -14,7 +14,13 @@ export default function Footer() {
         </div>
         <div className={styles.right}>
           <a href={mailtoHref("Get in touch — Soulwayo")} className={styles.contactLink}>
-            {t("contact")}
+            {siteConfig.contactEmail}
+          </a>
+          <a
+            href={`tel:${siteConfig.contactPhone.replace(/\s+/g, "")}`}
+            className={styles.contactLink}
+          >
+            {siteConfig.contactPhone}
           </a>
           <a
             href={siteConfig.instagramUrl}

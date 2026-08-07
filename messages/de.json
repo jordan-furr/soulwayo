@@ -15,64 +15,116 @@
     "getInTouch": "Kontakt aufnehmen"
   },
   "hero": {
-    "tagline": "Ein Raum für Heilung, Verkörperung & Erinnern.",
-    "sub": "Heilung geschieht, wenn der Körper sich sicher genug fühlt, um in die Präsenz zurückzukehren.",
-    "explore": "Unseren Ansatz entdecken ↓"
+    "tagline": "Ein heiliger Raum für Menschen, die bereit sind, sich zu erinnern, wer sie wirklich sind.",
+    "subLine1": "Eine Reise zurück in die Verbindung — mit deinem Körper, deinem Herzen und deiner Seele.",
+    "subLine2": "Durch Traumaheilung, somatische Arbeit, bewusste Rituale und eine verwandelnde Gemeinschaft."
   },
   "space": {
     "eyebrow": "Für den Moment, in dem der Verstand nicht weitertragen kann",
-    "headline": "Es kommt ein Moment, in dem Überforderung, Trennung und alte Muster zu schwer werden, um sie allein zu tragen.",
+    "headline": "Viele Menschen fühlen sich heute erschöpft, überfordert, getrennt und orientierungslos. Du suchst nicht nach einer weiteren Technik. Du suchst nach etwas Echtem:",
+    "want1": "Ich möchte mich selbst wieder spüren.",
+    "want2": "Ich möchte alte Muster loslassen.",
+    "want3": "Ich möchte mich sicher in meinem Körper fühlen.",
+    "want4": "Ich möchte echte Verbindung.",
     "bodyPre": "Soulwayo ist der Raum, der dich dort abholt — wo das Nervensystem weich werden darf, Emotionen sich bewegen können und das Leben wieder zu fließen beginnt. Wir arbeiten nicht",
     "bodyOn": "an",
     "bodyMid": "dir. Wir arbeiten",
     "bodyWith": "mit",
     "bodyPost": "dir — in Präsenz, Sicherheit und Wahrheit.",
-    "quote": "Heilung bedeutet nicht, jemand Neues zu werden — sondern sich daran zu erinnern, wer du unter Überleben, Schutz und emotionaler Überforderung bist."
+    "pathfinderTitle": "Wo fange ich an?",
+    "path1Emoji": "🌱",
+    "path1Label": "Ich bin neu hier",
+    "path1Dest": "Kostenloses Kennenlerngespräch",
+    "path2Emoji": "🌿",
+    "path2Label": "Ich möchte tiefe Heilung",
+    "path2Dest": "Traumatherapie & somatische Heilung",
+    "path3Emoji": "🔥",
+    "path3Label": "Ich möchte Transformation",
+    "path3Dest": "Retreats",
+    "path4Emoji": "🌕",
+    "path4Label": "Ich möchte Gemeinschaft",
+    "path4Dest": "Soulwayo Tribe"
   },
   "pillars": {
     "eyebrow": "Unsere Arbeit",
-    "intro": "Wir sehen Trauma nicht als Defekt. Wir sehen es als eine intelligente Anpassung — eine schützende Reaktion, die sich sanft lösen kann, wenn Sicherheit zurückkehrt.",
+    "intro": "Wo Psychologie, Körperweisheit und Bewusstsein zusammenkommen — Soulwayo vereint Traumaheilung, somatische Ansätze und uralte Weisheitstraditionen zu einem gemeinsamen Weg.",
     "p1": {
       "title": "Traumatherapie & somatische Heilung",
+      "before": "Ich funktioniere, aber ich fühle mich von mir selbst getrennt.",
+      "after": "Ich fühle mich wieder sicher in meinem Körper und verbinde mich neu mit meiner inneren Stärke und Authentizität.",
       "body": "Emotionale Verarbeitung, Regulation des Nervensystems und Traumaintegration — durch Psychotherapie und körperbasierte Arbeit. Eine langsame Rückkehr zu innerer Stabilität und Selbstvertrauen."
     },
     "p2": {
       "title": "Zeremonie, Feuer & Kakao",
+      "before": "Ich fühle mich gefangen in meinem Kopf und getrennt von meinem Herzen.",
+      "after": "Ich verbinde mich neu mit meinem inneren Frieden, meiner Klarheit und meiner Lebensenergie.",
       "body": "Meditation, Großvater-Feuer und heiliger Kakao. Ein Raum jenseits des denkenden Verstandes — für Herzöffnung, emotionale Entladung und die Rückverbindung zu Intuition und Wahrheit."
     },
     "p3": {
       "title": "Retreats",
+      "before": "Ich fühle mich erschöpft, getrennt und unsicher über meinen Weg.",
+      "after": "Ich kehre zu mir selbst zurück, gewinne Klarheit und erlebe tiefe Verbindung.",
       "body": "Immersive Heilungsreisen in der Natur — Stille, Zeremonie und begleitete innere Arbeit. Hier wird Heilung nicht erzwungen; sie entfaltet sich in ihrem eigenen, intelligenten Rhythmus."
+    },
+    "p4": {
+      "title": "Soulwayo Tribe",
+      "intro": "Du musst deinen Heilungsweg nicht allein gehen.",
+      "body": "Monatliche Zeremonien, Online-Meditationen, Gemeinschaftskreise und Räume zum Teilen. Nicht nur Events — ein Zuhause."
     }
   },
   "about": {
-    "eyebrow": "Über uns",
-    "name": "Sarah & Johannes",
-    "body": "Partner im Leben und in der Arbeit, verbunden durch einen gemeinsamen Weg von Heilung, Präsenz und Transformation. Unsere Arbeit entstand aus gelebter Erfahrung und vielen Jahren, in denen wir Menschen durch emotionale Heilung, Traumaintegration und verkörperte Transformation begleitet haben.",
-    "quote": "Wir sehen Heilung nicht als Technik. Wir sehen sie als ein relationales Feld — etwas, das in Sicherheit, Präsenz und Wahrheit geschieht."
+    "eyebrow": "Unsere Geschichte",
+    "heading": "Die Reise, die uns hierher geführt hat",
+    "p1": "Soulwayo entstand nicht aus einem Ort der Perfektion. Es entstand aus dem Leben selbst — aus Momenten tiefer Transformation, Herausforderungen, Heilung und dem Mut, weiter auf die innere Stimme zu hören.",
+    "p2": "Wir sind beide unsere eigenen Wege des Erwachens gegangen und haben gelernt, dass wahre Heilung nicht darin besteht, Schmerz zu vermeiden, sondern uns selbst mit Mitgefühl, Bewusstsein und Liebe zu begegnen. Die Momente, die uns am meisten herausgefordert haben, trugen die größten Einladungen zum Wachstum in sich. Das Leben hat uns gelehrt, dass der Körper sich erinnert, das Herz weiß, und dass Heilung geschieht, wenn wir einen sicheren Raum schaffen, in dem alle Teile von uns gesehen werden dürfen.",
+    "sarahName": "Sarah",
+    "sarahRest": "wurde geprägt von Jahren der Begleitung anderer Menschen durch Psychotherapie, Traumaheilung, Embodiment, Kinderyoga, Meditation und spirituelle Praktiken. Ihre eigenen Erfahrungen als Mutter, mit Lebensherausforderungen und Heilungswegen haben ihr gezeigt, wie wichtig Mitgefühl, Präsenz und die Rückverbindung zur Weisheit des Körpers sind.",
+    "johannesName": "Johannes",
+    "johannesRest": "bringt ein tiefes Verständnis für Transformation, Bewusstsein und die Verbindung von Körper, Geist und Seele mit. Durch seine eigene innere Reise hat er die Kraft von Präsenz, Authentizität und das Halten von Raum für andere auf ihrem Weg zu sich selbst kennengelernt.",
+    "p5": "Gemeinsam haben wir Soulwayo geschaffen, weil wir glauben, dass die Menschheit in eine Zeit eintritt, in der wir zurück in die Verbindung gerufen werden — mit uns selbst, miteinander und mit der Natur. Unsere Vision reicht bis zur nächsten Generation — durch bewusste Elternschaft, Familienheilung und emotionale Begleitung von Kindern. Wir glauben, dass Heilung nicht erst bei Erwachsenen beginnt.",
+    "p6Pre": "Soulwayo bedeutet",
+    "p6Italic": "den Weg der Seele gehen",
+    "p6Post": "Ein Raum, in dem uralte Weisheit und moderne Heilung zusammentreffen, in dem Psychologie, Körper und Spiritualität zusammenkommen, und in dem Menschen eingeladen sind, sich an ihre eigene innere Ganzheit zu erinnern.",
+    "quote": "Wir begleiten Menschen nicht aus einem Ort, an dem wir alle Antworten haben. Wir gehen als Mitmenschen an ihrer Seite und halten einen liebevollen, sicheren Raum, in dem Transformation geschehen kann."
   },
   "retreats": {
     "eyebrow": "Soulwayo Retreats",
     "headline": "Ein Raum, um zu dir selbst zurückzukehren.",
-    "quote": "Eine Einladung, langsamer zu werden. Wieder zu fühlen. Wieder zu atmen. Zurückzukehren.",
+    "quote": "Eine Einladung, langsamer zu werden. Wieder zu fühlen. Wieder zu atmen.",
     "body": "Getragen von Natur, Präsenz und tiefer emotionaler Sicherheit. Du musst nichts leisten, reparieren oder erreichen. Du bist eingeladen anzukommen — genau so, wie du bist.",
+    "highlight1": "3 Tage & Nächte voller Workshops und Rituale",
+    "highlight2": "Tiefe Selbstreflexion",
+    "highlight3": "Spirituelle Begleitung",
     "tag1": "Traumasensible innere Arbeit",
     "tag2": "Somatische Heilung & Nervensystem",
     "tag3": "Zeremonie & Präsenz",
     "tag4": "Integration in der Natur"
   },
   "flyer": {
-    "eyebrow": "Nächstes Zusammenkommen",
+    "eyebrow": "Bevorstehend",
     "title": "Awaken Your True Path",
     "date": "Retreat · 10.–13. September 2026",
     "tag1": "Zurück zur Essenz",
     "tag2": "Zurück zum Körper",
     "tag3": "Zurück zur inneren Wahrheit",
     "body": "Eine Reise der Initiation, Ausrichtung und inneren Führung. Alte Häute ablegen. Deinen Seelenweg neu wählen. Geh in Präsenz und Ehrfurcht an unserer Seite.",
-    "cta": "Bei diesem Retreat dabei sein"
+    "cta": "Bei diesem Retreat dabei sein",
+    "festivalTitle": "Soulwayo Festival",
+    "festivalDate": "Festival · 10.10.2026 · 14:00 Uhr",
+    "festivalLine1": "Ein Fest des Herzens.",
+    "festivalLine2": "Ein Fest des Miteinanders.",
+    "festivalLine3": "Kleine Workshops, Malerei, Musik, Natur, gemeinsames Essen & Trinken und so viel mehr.",
+    "festivalLine4": "Alles ist ein Geschenk.",
+    "festivalLine5": "Nichts wird verkauft.",
+    "festivalLine6": "Gemeinsam teilen.",
+    "festivalLine7": "Gemeinsam erinnern.",
+    "festivalLine8": "Wir sind eins.",
+    "festivalLine9": "Wir sind Liebe.",
+    "festivalLine10": "Wir sind Soulwayo."
   },
   "final": {
     "eyebrow": "Eine stille Einladung",
+    "vision": "Wir erinnern Menschen daran, dass Heilung möglich ist. Dass jeder Mensch eine innere Ganzheit in sich trägt. Dass Verbindung der Weg nach Hause ist.",
     "headline": "Wenn dein Herz ein leises Ja spürt, wäre es uns eine Ehre, diesen Weg mit dir zu gehen.",
     "body": "Soulwayo ist kein Ort, um jemand anderes zu werden. Es ist ein Raum, um zurückzukehren — sanft, ehrlich und in deinem eigenen Tempo.",
     "closingLine1": "Zu deinem Körper.",
@@ -81,7 +133,6 @@
   },
   "footer": {
     "tagline": "Heilung · Verkörperung · Erinnern",
-    "contact": "Kontakt aufnehmen",
     "legal": "Ein ergänzender, traumasensibler Ansatz — kein Ersatz für medizinische oder psychiatrische Versorgung. © 2026 Soulwayo. Alle Rechte vorbehalten."
   }
 }

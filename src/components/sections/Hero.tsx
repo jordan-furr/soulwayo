@@ -8,6 +8,7 @@ import heroImg from "../../../public/images/soulwayo-team.jpg";
 export default function Hero() {
   const t = useTranslations("hero");
   const tCta = useTranslations("cta");
+  const tNav = useTranslations("nav");
 
   return (
     <section id="top" className={styles.hero}>
@@ -31,14 +32,14 @@ export default function Hero() {
           {t("tagline")}
         </Reveal>
         <Reveal as="p" delay={0.24} className={styles.sub}>
-          {t("sub")}
+          {t("subLine1")} {t("subLine2")}
         </Reveal>
         <Reveal delay={0.32} className={styles.actions}>
           <a href={mailtoHref("Get in touch — Soulwayo")} className={styles.primaryBtn}>
             {tCta("getInTouch")}
           </a>
-          <a href="#space" className={styles.exploreLink}>
-            {t("explore")}
+          <a href="#next-retreat" className={styles.exploreLink}>
+            {tNav("nextRetreat")}
           </a>
         </Reveal>
       </div>

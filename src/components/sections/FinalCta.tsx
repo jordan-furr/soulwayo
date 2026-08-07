@@ -23,6 +23,9 @@ export default function FinalCta() {
           />
         </Reveal>
         <Reveal className={styles.eyebrow}>{t("eyebrow")}</Reveal>
+        <Reveal as="p" delay={0.04} className={styles.vision}>
+          {t("vision")}
+        </Reveal>
         <Reveal as="p" delay={0.06} className={styles.headline}>
           {t("headline")}
         </Reveal>

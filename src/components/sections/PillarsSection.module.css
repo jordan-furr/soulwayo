@@ -19,7 +19,7 @@
 .eyebrow {
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 12.5px;
+  font-size: 13.5px;
   letter-spacing: 0.34em;
   text-transform: uppercase;
   color: var(--accent-deep);
@@ -63,6 +63,49 @@
   font-weight: 500;
   font-size: 27px;
   line-height: 1.2;
+  color: var(--forest);
+}
+
+.cardIntro {
+  margin: 0 0 16px;
+  font-family: var(--font-cormorant);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18.5px;
+  line-height: 1.6;
+  color: var(--forest);
+}
+
+.beforeAfter {
+  margin: 0 0 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed rgba(31, 58, 46, 0.16);
+}
+
+.before {
+  margin: 0;
+  font-family: var(--font-cormorant);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18.5px;
+  line-height: 1.6;
+  color: #8a7b64;
+}
+
+.arrow {
+  display: block;
+  margin: 6px 0;
+  font-size: 12px;
+  color: var(--accent-deep);
+}
+
+.after {
+  margin: 0;
+  font-family: var(--font-cormorant);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18.5px;
+  line-height: 1.6;
   color: var(--forest);
 }
 

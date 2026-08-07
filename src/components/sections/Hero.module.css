@@ -21,25 +21,25 @@
 .scrimSide {
   background: linear-gradient(
     90deg,
-    rgba(14, 24, 18, 0.95) 0%,
-    rgba(14, 24, 18, 0.78) 34%,
-    rgba(14, 24, 18, 0.4) 66%,
-    rgba(14, 24, 18, 0.5) 100%
+    rgba(14, 24, 18, 0.78) 0%,
+    rgba(14, 24, 18, 0.62) 34%,
+    rgba(14, 24, 18, 0.3) 66%,
+    rgba(14, 24, 18, 0.38) 100%
   );
 }
 
 .scrimBottom {
-  background: linear-gradient(0deg, rgba(14, 24, 18, 0.72) 0%, rgba(14, 24, 18, 0) 42%);
+  background: linear-gradient(0deg, rgba(14, 24, 18, 0.55) 0%, rgba(14, 24, 18, 0) 42%);
 }
 
 .scrimMobile {
   display: none;
   background: linear-gradient(
     180deg,
-    rgba(14, 24, 18, 0.72) 0%,
-    rgba(14, 24, 18, 0.32) 34%,
-    rgba(14, 24, 18, 0.5) 62%,
-    rgba(14, 24, 18, 0.88) 100%
+    rgba(14, 24, 18, 0.55) 0%,
+    rgba(14, 24, 18, 0.24) 34%,
+    rgba(14, 24, 18, 0.38) 62%,
+    rgba(14, 24, 18, 0.7) 100%
   );
 }
 
@@ -151,8 +151,5 @@
   }
   .inner {
     padding: 40px 8vw 76px !important;
-  }
-  .exploreLink {
-    display: none !important;
   }
 }

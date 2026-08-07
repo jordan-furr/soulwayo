@@ -21,16 +21,33 @@ export default function AboutSection() {
         <div>
           <Reveal className={styles.eyebrow}>{t("eyebrow")}</Reveal>
           <Reveal as="h2" delay={0.06} className={styles.name}>
-            {t("name")}
+            {t("heading")}
           </Reveal>
-          <Reveal as="p" delay={0.12} className={styles.body}>
-            {t("body")}
+          <Reveal as="p" delay={0.1} className={styles.body}>
+            {t("p1")}
           </Reveal>
-          <Reveal as="p" delay={0.18} className={styles.quote}>
-            {t("quote")}
+          <Reveal as="p" delay={0.14} className={styles.body}>
+            {t("p2")}
           </Reveal>
         </div>
       </div>
+
+      <div className={styles.bios}>
+        <Reveal as="p" delay={0.06} className={styles.body}>
+          <strong>{t("sarahName")}</strong> {t("sarahRest")}
+        </Reveal>
+        <Reveal as="p" delay={0.1} className={styles.body}>
+          <strong>{t("johannesName")}</strong> {t("johannesRest")}
+        </Reveal>
+      </div>
+
+      <Reveal delay={0.06} className={styles.storyCallout}>
+        <p className={styles.body}>{t("p5")}</p>
+        <p className={styles.body}>
+          {t("p6Pre")} <em>{t("p6Italic")}</em>. {t("p6Post")}
+        </p>
+        <p className={styles.quote}>{t("quote")}</p>
+      </Reveal>
     </section>
   );
 }

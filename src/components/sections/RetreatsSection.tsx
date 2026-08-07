@@ -23,6 +23,11 @@ export default function RetreatsSection() {
           <Reveal as="p" delay={0.18} className={styles.body}>
             {t("body")}
           </Reveal>
+          <Reveal delay={0.22} className={styles.highlights}>
+            <span className={styles.highlightPill}>{t("highlight1")}</span>
+            <span className={styles.highlightPill}>{t("highlight2")}</span>
+            <span className={styles.highlightPill}>{t("highlight3")}</span>
+          </Reveal>
         </div>
 
         <Reveal className={styles.grid}>
