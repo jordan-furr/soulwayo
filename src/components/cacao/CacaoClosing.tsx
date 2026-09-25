@@ -13,7 +13,7 @@ export default function CacaoClosing() {
           {t("stanza")}
         </Reveal>
         <Reveal delay={0.12}>
-          <Link href="/contact" className={styles.cta}>
+          <Link href="/booking" className={styles.cta}>
             {t("cta")}
           </Link>
         </Reveal>

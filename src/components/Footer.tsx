@@ -21,9 +21,9 @@ export default function Footer() {
             <Link href="/about" className={styles.navLink}>{tNav("about")}</Link>
           </div>
           <div className={styles.column}>
-            <a href={`mailto:${siteConfig.contactEmail}`} className={styles.contactLink}>
-              {siteConfig.contactEmail}
-            </a>
+            <Link href="/contact" className={styles.contactLink}>
+              Contact us
+            </Link>
             <a
               href={`tel:${siteConfig.contactPhone.replace(/\s+/g, "")}`}
               className={styles.contactLink}

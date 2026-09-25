@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { siteConfig } from "@/lib/site";
 import styles from "./BookingForm.module.css";
 
@@ -171,9 +172,9 @@ export default function BookingForm() {
         </form>
 
         <div className={styles.altContact}>
-          <a href={`mailto:${siteConfig.contactEmail}`} className={styles.altLink}>
-            {siteConfig.contactEmail}
-          </a>
+          <Link href="/contact" className={styles.altLink}>
+            Contact form
+          </Link>
           <a
             href={`tel:${siteConfig.contactPhone.replace(/\s+/g, "")}`}
             className={styles.altLink}

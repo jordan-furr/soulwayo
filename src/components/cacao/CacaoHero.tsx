@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import Reveal from "@/components/Reveal";
 import styles from "./CacaoHero.module.css";
-import fireCircle from "../../../public/images/cacao-garden.jpg";
+import fireCircle from "../../../public/images/retreat-ceremony-tent.jpeg";
 
 export default function CacaoHero() {
   const t = useTranslations("cacao.hero");

@@ -26,7 +26,7 @@ export default function NextCeremony() {
             <p className={styles.date}>{t("date")}</p>
             <p className={styles.location}>{t("location")}</p>
             <p className={styles.tagline}>{t("tagline")}</p>
-            <Link href="/contact" className={styles.cta}>
+            <Link href="/booking" className={styles.cta}>
               {t("cta")}
             </Link>
           </Reveal>

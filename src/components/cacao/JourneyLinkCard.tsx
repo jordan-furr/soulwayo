@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import Reveal from "@/components/Reveal";
 import styles from "./JourneyLinkCard.module.css";
-import tentImg from "../../../public/images/retreat-ceremony-tent.jpeg";
+import tentImg from "../../../public/images/cacao-garden.jpg";
 
 export default function JourneyLinkCard() {
   const t = useTranslations("cacao.journeyLink");

@@ -170,9 +170,6 @@ export default function ContactForm() {
           </form>
 
           <div className={styles.altContact}>
-            <a href={`mailto:${siteConfig.contactEmail}`} className={styles.altLink}>
-              {siteConfig.contactEmail}
-            </a>
             <a
               href={`tel:${siteConfig.contactPhone.replace(/\s+/g, "")}`}
               className={styles.altLink}
