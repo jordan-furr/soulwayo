@@ -135,7 +135,7 @@
   .hero {
     min-height: auto !important;
     display: block !important;
-    padding-top: 70px !important;
+    padding-top: 0 !important;
   }
   .heroImg {
     position: relative !important;

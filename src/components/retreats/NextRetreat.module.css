@@ -180,3 +180,9 @@
   font-size: 24px;
   color: #5a4630;
 }
+
+@media (max-width: 900px) {
+  .section {
+    padding-top: 60px;
+  }
+}

@@ -93,3 +93,9 @@
 .cta:hover {
   background: var(--terracotta-hover);
 }
+
+@media (max-width: 900px) {
+  .section {
+    padding-top: 60px;
+  }
+}

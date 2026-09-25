@@ -53,3 +53,10 @@
   line-height: 1.9;
   color: #2E3934;
 }
+
+@media (max-width: 900px) {
+  .imageWrap {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}

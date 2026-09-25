@@ -109,3 +109,9 @@
   color: var(--ochre);
   text-decoration: none;
 }
+
+@media (max-width: 900px) {
+  .section {
+    padding-top: 60px;
+  }
+}
