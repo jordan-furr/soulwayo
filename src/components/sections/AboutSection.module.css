@@ -1,6 +1,6 @@
 .section {
   scroll-margin-top: 80px;
-  background: var(--cream-warm);
+  background: var(--cream);
   padding: clamp(90px, 13vh, 150px) 6vw;
 }
 
@@ -31,7 +31,7 @@
   position: relative;
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 34px 74px -34px rgba(31, 58, 46, 0.6), 0 0 0 1px rgba(31, 58, 46, 0.05);
+  box-shadow: 0 34px 74px -34px rgba(31, 42, 38, 0.6), 0 0 0 1px rgba(31, 42, 38, 0.05);
 }
 
 .image {
@@ -65,7 +65,7 @@
   font-weight: 300;
   font-size: clamp(15px, 1.5vw, 17px);
   line-height: 1.85;
-  color: #4a5647;
+  color: #3A4A3E;
 }
 
 .body strong {
@@ -85,7 +85,7 @@
   font-weight: 300;
   font-size: clamp(19px, 2.3vw, 25px);
   line-height: 1.5;
-  color: #5b6b5e;
+  color: #6B7D6E;
 }
 
 .storyCallout {
@@ -94,7 +94,7 @@
   padding: clamp(36px, 5vw, 56px);
   background: var(--cream);
   border-radius: 3px;
-  box-shadow: 0 0 0 1px rgba(31, 58, 46, 0.06);
+  box-shadow: 0 0 0 1px rgba(31, 42, 38, 0.06);
 }
 
 .storyCallout .body:last-of-type {

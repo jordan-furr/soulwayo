@@ -2,8 +2,9 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import Reveal from "@/components/Reveal";
 import styles from "./RetreatsSection.module.css";
-import fireCircle from "../../../public/images/retreat-fire-circle.jpg";
-import drum from "../../../public/images/drum.jpeg";
+import drum from "../../../public/images/singing.jpeg";
+import sarahPhoto from "../../../public/images/sarah.jpeg";
+import johannesPhoto from "../../../public/images/johannes.jpeg";
 
 export default function RetreatsSection() {
   const t = useTranslations("retreats");
@@ -37,16 +38,7 @@ export default function RetreatsSection() {
               alt="Sarah playing a ceremonial drum inside a candlelit tipi"
               fill
               className={styles.tileImg}
-              sizes="(max-width: 860px) 100vw, 60vw"
-            />
-          </div>
-          <div className={styles.tile}>
-            <Image
-              src={fireCircle}
-              alt="A fire circle with mats and candles in a sunlit forest clearing"
-              fill
-              className={styles.tileImg}
-              sizes="(max-width: 860px) 100vw, 40vw"
+              sizes="100vw"
             />
           </div>
         </Reveal>
@@ -57,6 +49,56 @@ export default function RetreatsSection() {
           <span className={styles.tag}>{t("tag3")}</span>
           <span className={styles.tag}>{t("tag4")}</span>
         </Reveal>
+
+        <div className={styles.facilitators}>
+          <Reveal className={styles.facilitatorsEyebrow}>
+            {t("facilitatorsEyebrow")}
+          </Reveal>
+
+          <div className={styles.bios}>
+            <Reveal className={styles.bio}>
+              <div className={styles.bioImageWrap}>
+                <Image
+                  src={sarahPhoto}
+                  alt="Sarah"
+                  width={480}
+                  height={600}
+                  className={styles.bioImage}
+                />
+              </div>
+              <div className={styles.bioText}>
+                <h3 className={styles.bioName}>{t("sarahName")}</h3>
+                <p className={styles.bioBody}>{t("sarahP1")}</p>
+                <p className={styles.bioBody}>{t("sarahP2")}</p>
+                <p className={styles.bioBody}>{t("sarahP3")}</p>
+                <p className={styles.bioBody}>{t("sarahP4")}</p>
+                <p className={styles.bioClosing}>{t("sarahClosing")}</p>
+                <p className={styles.bioQuote}>{t("sarahQuote")}</p>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.1} className={styles.bio}>
+              <div className={styles.bioImageWrap}>
+                <Image
+                  src={johannesPhoto}
+                  alt="Johannes"
+                  width={480}
+                  height={600}
+                  className={styles.bioImage}
+                />
+              </div>
+              <div className={styles.bioText}>
+                <h3 className={styles.bioName}>{t("johannesName")}</h3>
+                <p className={styles.bioBody}>{t("johannesP1")}</p>
+                <p className={styles.bioBody}>{t("johannesP2")}</p>
+                <p className={styles.bioBody}>{t("johannesP3")}</p>
+                <p className={styles.bioBody}>{t("johannesP4")}</p>
+                <p className={styles.bioClosing}>{t("johannesClosing")}</p>
+                <p className={styles.bioQuote}>{t("johannesQuote")}</p>
+              </div>
+            </Reveal>
+          </div>
+        </div>
       </div>
     </section>
   );

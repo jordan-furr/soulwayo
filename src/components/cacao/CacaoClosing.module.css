@@ -1,0 +1,39 @@
+.section {
+  background: var(--cream);
+  padding: clamp(90px, 14vh, 170px) 6vw;
+  text-align: center;
+}
+
+.inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.stanza {
+  margin: 0 0 48px;
+  font-family: var(--font-cormorant);
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1.7;
+  color: var(--forest);
+  white-space: pre-line;
+}
+
+.cta {
+  display: inline-flex;
+  padding: 18px 44px;
+  background: var(--terracotta);
+  font-family: var(--font-raleway);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #FBF7EF;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta:hover {
+  background: var(--terracotta-hover);
+}

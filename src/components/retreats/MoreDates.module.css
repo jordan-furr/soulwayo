@@ -1,0 +1,77 @@
+.section {
+  background: var(--cream);
+  padding: clamp(80px, 12vh, 140px) 6vw;
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.eyebrow {
+  font-family: var(--font-raleway);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--ochre);
+  margin-bottom: 24px;
+}
+
+.headline {
+  margin: 0 0 60px;
+  font-family: var(--font-cormorant);
+  font-weight: 400;
+  font-size: clamp(32px, 4vw, 50px);
+  line-height: 1.1;
+  color: var(--forest-deep);
+}
+
+.dates {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.dateCard {
+  padding: 40px 28px;
+  background: var(--paper);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.dateText {
+  font-family: var(--font-cormorant);
+  font-weight: 500;
+  font-size: clamp(20px, 2.2vw, 26px);
+  color: var(--forest-deep);
+}
+
+.note {
+  font-family: var(--font-raleway);
+  font-size: 13px;
+  color: rgba(46, 57, 52, 0.5);
+  font-style: italic;
+}
+
+.bookLink {
+  margin-top: 8px;
+  font-family: var(--font-raleway);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  color: var(--terracotta);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(197, 113, 90, 0.3);
+  padding-bottom: 2px;
+}
+
+@media (max-width: 900px) {
+  .dates {
+    grid-template-columns: 1fr;
+  }
+}

@@ -21,25 +21,25 @@
 .scrimSide {
   background: linear-gradient(
     90deg,
-    rgba(14, 24, 18, 0.78) 0%,
-    rgba(14, 24, 18, 0.62) 34%,
-    rgba(14, 24, 18, 0.3) 66%,
-    rgba(14, 24, 18, 0.38) 100%
+    rgba(20, 28, 24, 0.78) 0%,
+    rgba(20, 28, 24, 0.62) 34%,
+    rgba(20, 28, 24, 0.3) 66%,
+    rgba(20, 28, 24, 0.38) 100%
   );
 }
 
 .scrimBottom {
-  background: linear-gradient(0deg, rgba(14, 24, 18, 0.55) 0%, rgba(14, 24, 18, 0) 42%);
+  background: linear-gradient(0deg, rgba(20, 28, 24, 0.55) 0%, rgba(20, 28, 24, 0) 42%);
 }
 
 .scrimMobile {
   display: none;
   background: linear-gradient(
     180deg,
-    rgba(14, 24, 18, 0.55) 0%,
-    rgba(14, 24, 18, 0.24) 34%,
-    rgba(14, 24, 18, 0.38) 62%,
-    rgba(14, 24, 18, 0.7) 100%
+    rgba(20, 28, 24, 0.55) 0%,
+    rgba(20, 28, 24, 0.24) 34%,
+    rgba(20, 28, 24, 0.38) 62%,
+    rgba(20, 28, 24, 0.7) 100%
   );
 }
 
@@ -49,7 +49,8 @@
   width: 100%;
   max-width: 1180px;
   margin: 0 auto;
-  padding: 260px 6vw 90px;
+  padding: 0 6vw 90px;
+  padding-top: max(300px, 38vh);
 }
 
 .title {
@@ -59,7 +60,7 @@
   font-size: clamp(66px, 13vw, 178px);
   line-height: 0.9;
   letter-spacing: -0.01em;
-  color: #f7f3ea;
+  color: #F7F4EE;
 }
 
 .tagline {
@@ -70,17 +71,7 @@
   font-style: italic;
   font-size: clamp(22px, 3vw, 34px);
   line-height: 1.35;
-  color: rgba(237, 231, 218, 0.9);
-}
-
-.sub {
-  margin: 26px 0 0;
-  max-width: 520px;
-  font-family: var(--font-raleway);
-  font-weight: 300;
-  font-size: clamp(15px, 1.5vw, 17px);
-  line-height: 1.75;
-  color: rgba(216, 203, 183, 0.82);
+  color: rgba(247, 244, 238, 0.9);
 }
 
 .actions {
@@ -96,22 +87,22 @@
   align-items: center;
   gap: 12px;
   padding: 17px 38px;
-  background: var(--accent);
+  background: var(--gold);
   border-radius: 2px;
   font-family: var(--font-raleway);
   font-weight: 600;
   font-size: 12.5px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #fbf7ef;
+  color: #F7F4EE;
   text-decoration: none;
-  box-shadow: 0 14px 38px rgba(196, 122, 58, 0.32);
+  box-shadow: 0 14px 38px rgba(198, 166, 107, 0.32);
   transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s;
 }
 
 .primaryBtn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 20px 46px rgba(196, 122, 58, 0.42);
+  box-shadow: 0 20px 46px rgba(198, 166, 107, 0.42);
 }
 
 .exploreLink {
@@ -123,20 +114,23 @@
   font-size: 12px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(237, 231, 218, 0.74);
+  color: rgba(247, 244, 238, 0.74);
   text-decoration: none;
-  border-bottom: 1px solid rgba(237, 231, 218, 0.28);
+  border-bottom: 1px solid rgba(247, 244, 238, 0.28);
   padding-bottom: 4px;
   transition: color 0.3s ease;
 }
 
 .exploreLink:hover {
-  color: #f7f3ea;
+  color: #F7F4EE;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 900px) {
   .scrimSide {
     display: none !important;
+  }
+  .scrimMobile {
+    display: block;
   }
   .hero {
     min-height: auto !important;

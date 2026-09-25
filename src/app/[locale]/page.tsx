@@ -2,11 +2,10 @@ import { setRequestLocale } from "next-intl/server";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/sections/Hero";
+import RetreatsFeature from "@/components/sections/RetreatsFeature";
 import SpaceSection from "@/components/sections/SpaceSection";
 import PillarsSection from "@/components/sections/PillarsSection";
-import AboutSection from "@/components/sections/AboutSection";
-import RetreatsSection from "@/components/sections/RetreatsSection";
-import FlyerSection from "@/components/sections/FlyerSection";
+import OurStoryIntro from "@/components/sections/OurStoryIntro";
 import FinalCta from "@/components/sections/FinalCta";
 
 export default async function Home({
@@ -22,11 +21,10 @@ export default async function Home({
       <Nav />
       <main>
         <Hero />
+        <RetreatsFeature />
         <SpaceSection />
         <PillarsSection />
-        <AboutSection />
-        <RetreatsSection />
-        <FlyerSection />
+        <OurStoryIntro />
         <FinalCta />
       </main>
       <Footer />

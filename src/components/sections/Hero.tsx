@@ -1,20 +1,18 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import Reveal from "@/components/Reveal";
-import { mailtoHref } from "@/lib/site";
 import styles from "./Hero.module.css";
-import heroImg from "../../../public/images/soulwayo-team.jpg";
+import heroImg from "../../../public/images/hero-alt.jpeg";
 
 export default function Hero() {
-  const t = useTranslations("hero");
-  const tCta = useTranslations("cta");
-  const tNav = useTranslations("nav");
+  const t = useTranslations("home.hero");
 
   return (
     <section id="top" className={styles.hero}>
       <Image
         src={heroImg}
-        alt="Sarah & Johannes in a fireside forest ceremony"
+        alt="Soulwayo — a sacred space in the forest"
         fill
         priority
         className={styles.heroImg}
@@ -31,16 +29,13 @@ export default function Hero() {
         <Reveal as="p" delay={0.16} className={styles.tagline}>
           {t("tagline")}
         </Reveal>
-        <Reveal as="p" delay={0.24} className={styles.sub}>
-          {t("subLine1")} {t("subLine2")}
-        </Reveal>
         <Reveal delay={0.32} className={styles.actions}>
-          <a href={mailtoHref("Get in touch — Soulwayo")} className={styles.primaryBtn}>
-            {tCta("getInTouch")}
-          </a>
-          <a href="#next-retreat" className={styles.exploreLink}>
-            {tNav("nextRetreat")}
-          </a>
+          <Link href="/retreats" className={styles.primaryBtn}>
+            {t("ctaPrimary")}
+          </Link>
+          <Link href="/contact" className={styles.exploreLink}>
+            {t("ctaSecondary")}
+          </Link>
         </Reveal>
       </div>
     </section>

@@ -1,13 +1,12 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import Reveal from "@/components/Reveal";
-import { mailtoHref } from "@/lib/site";
 import styles from "./FinalCta.module.css";
-import logo from "../../../public/images/soulwayo-logo.jpg";
+import logo from "../../../public/images/soulwayo-logo.jpeg";
 
 export default function FinalCta() {
-  const t = useTranslations("final");
-  const tCta = useTranslations("cta");
+  const t = useTranslations("home.finalCta");
 
   return (
     <section className={styles.section}>
@@ -33,9 +32,9 @@ export default function FinalCta() {
           {t("body")}
         </Reveal>
         <Reveal delay={0.16}>
-          <a href={mailtoHref("Get in touch — Soulwayo")} className={styles.cta}>
-            {tCta("getInTouch")}
-          </a>
+          <Link href="/contact" className={styles.cta}>
+            {t("cta")}
+          </Link>
         </Reveal>
         <Reveal as="p" delay={0.22} className={styles.closing}>
           {t("closingLine1")}

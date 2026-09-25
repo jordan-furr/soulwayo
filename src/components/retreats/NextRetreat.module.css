@@ -1,0 +1,182 @@
+.section {
+  background: linear-gradient(180deg, #e6dcc8 0%, #ddd1ba 100%);
+  padding: clamp(100px, 14vh, 170px) 6vw;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  text-align: center;
+  font-family: var(--font-raleway);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: #7a5a2e;
+  margin-bottom: 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: clamp(40px, 6vw, 100px);
+  align-items: center;
+}
+
+.flyerWrap {
+  justify-self: center;
+}
+
+.flyer {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: 0 40px 80px -28px rgba(72, 44, 18, 0.5);
+  transform: rotate(-1.4deg);
+}
+
+.title {
+  margin: 0 0 16px;
+  font-family: var(--font-cormorant);
+  font-weight: 400;
+  font-size: clamp(44px, 6vw, 84px);
+  line-height: 1;
+  color: #7a5a2e;
+}
+
+.subtitle {
+  margin: 0 0 8px;
+  font-family: var(--font-cormorant);
+  font-style: italic;
+  font-size: clamp(22px, 2.6vw, 32px);
+  color: var(--terracotta);
+}
+
+.location {
+  margin: 0 0 34px;
+  font-family: var(--font-raleway);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #6b4e26;
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.pill {
+  padding: 10px 20px;
+  border: 1px solid rgba(122, 90, 46, 0.35);
+  border-radius: 999px;
+  font-family: var(--font-raleway);
+  font-size: 14px;
+  color: #6b4e26;
+}
+
+.body {
+  margin: 0 0 40px;
+  max-width: 480px;
+  font-family: var(--font-raleway);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #5a4630;
+}
+
+.cta {
+  display: inline-flex;
+  padding: 18px 44px;
+  background: var(--terracotta);
+  font-family: var(--font-raleway);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #fbf7ef;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta:hover {
+  background: #b4624c;
+}
+
+.flyerBtn {
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.flyerBtn:hover {
+  transform: scale(1.03);
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+}
+
+.lightboxImg {
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain;
+  border-radius: 4px;
+  cursor: default;
+}
+
+.lightboxClose {
+  position: absolute;
+  top: 24px;
+  right: 28px;
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: rgba(246, 241, 232, 0.8);
+  cursor: pointer;
+}
+
+.futureDates {
+  margin-top: 36px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(122, 90, 46, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.futureDatesLabel {
+  font-family: var(--font-raleway);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #7a5a2e;
+  margin-bottom: 8px;
+}
+
+.futureDate {
+  font-family: var(--font-cormorant);
+  font-size: 20px;
+  color: #5a4630;
+}

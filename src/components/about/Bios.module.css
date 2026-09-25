@@ -1,0 +1,58 @@
+.section {
+  background: var(--paper);
+  padding: clamp(110px, 16vh, 190px) 6vw;
+}
+
+.inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: clamp(64px, 7vw, 110px);
+  align-items: start;
+}
+
+.bio {
+  font-family: var(--font-raleway);
+  font-weight: 400;
+  font-size: clamp(15px, 1.4vw, 17px);
+  line-height: 1.9;
+  color: #2E3934;
+}
+
+.photoWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 44px;
+}
+
+.photo {
+  object-fit: cover;
+}
+
+.name {
+  margin: 0 0 30px;
+  font-family: var(--font-cormorant);
+  font-weight: 400;
+  font-size: clamp(40px, 4.4vw, 58px);
+  color: #1E2B26;
+}
+
+.body {
+  margin: 0 0 18px;
+}
+
+.quote {
+  margin: 44px 0 0;
+  padding: 34px 0 0;
+  border-top: 1px solid rgba(30, 43, 38, 0.14);
+  font-family: var(--font-cormorant);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(24px, 2.6vw, 32px);
+  line-height: 1.4;
+  color: var(--forest);
+}

@@ -1,13 +1,20 @@
 :root {
-  --accent: #c47a3a;
-  --accent-deep: #a85f26;
-  --cream: #f5f1ea;
-  --cream-soft: #fafaf7;
-  --cream-warm: #ece3d3;
-  --forest-deep: #25422e;
-  --forest: #1f3a2e;
-  --forest-line: #2e4a3a;
-  --ink: #42513f;
+  --forest-deep: #22443A;
+  --forest: #2F5A4B;
+  --forest-card: #274C40;
+  --sage-label: #B9D0C3;
+  --cream: #F6F1E8;
+  --paper: #FBF8F2;
+  --sand: #EFE8DB;
+  --ink: #1E2B26;
+  --body: #2E3934;
+  --body-muted: #3F4A40;
+  --ochre: #8A6A33;
+  --brown: #7A5A2E;
+  --gold: #C9A86A;
+  --terracotta: #C5715A;
+  --terracotta-hover: #B4624C;
+  --hairline: rgba(30, 43, 38, 0.12);
   --font-cormorant: "Cormorant Garamond", serif;
   --font-raleway: "Raleway", sans-serif;
 }
@@ -28,7 +35,7 @@ body {
 body {
   margin: 0;
   background: var(--cream);
-  color: var(--forest);
+  color: var(--body);
   font-family: var(--font-raleway);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -43,7 +50,7 @@ a {
 }
 
 ::selection {
-  background: rgba(196, 122, 58, 0.22);
+  background: rgba(201, 168, 106, 0.22);
 }
 
 img {
@@ -54,8 +61,8 @@ img {
 [data-reveal] {
   opacity: 0;
   transform: translateY(22px);
-  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
-    transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 1.4s cubic-bezier(0.2, 0.7, 0.2, 1),
+    transform 1.4s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
 [data-reveal].sw-visible {

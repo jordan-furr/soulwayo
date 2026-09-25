@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import Reveal from "@/components/Reveal";
 import styles from "./AboutSection.module.css";
-import portrait from "../../../public/images/sarah-johannes.jpeg";
+import portrait from "../../../public/images/sarah+johannes.jpeg";
 
 export default function AboutSection() {
   const t = useTranslations("about");
