@@ -12,7 +12,7 @@
   text-align: center;
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.34em;
   text-transform: uppercase;
   color: #7a5a2e;
@@ -168,7 +168,7 @@
 .futureDatesLabel {
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #7a5a2e;
@@ -177,6 +177,6 @@
 
 .futureDate {
   font-family: var(--font-cormorant);
-  font-size: 20px;
+  font-size: 24px;
   color: #5a4630;
 }

@@ -76,6 +76,25 @@
   padding-bottom: 3px;
 }
 
+.langToggle {
+  background: none;
+  border: 1px solid rgba(246, 241, 232, 0.3);
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-family: var(--font-raleway);
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: rgba(246, 241, 232, 0.7);
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.langToggle:hover {
+  color: #F6F1E8;
+  border-color: rgba(246, 241, 232, 0.6);
+}
+
 .mobileActions {
   display: none;
   align-items: center;

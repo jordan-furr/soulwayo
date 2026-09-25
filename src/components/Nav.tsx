@@ -98,6 +98,13 @@ export default function Nav() {
           >
             {t("contact")}
           </Link>
+          <button
+            type="button"
+            onClick={switchLocale}
+            className={styles.langToggle}
+          >
+            {otherLocale.toUpperCase()}
+          </button>
         </div>
 
         <div className={styles.mobileActions}>
