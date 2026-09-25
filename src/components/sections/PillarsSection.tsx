@@ -41,7 +41,7 @@ export default function PillarsSection() {
   const t = useTranslations("home.ourWork");
 
   return (
-    <section className={styles.section}>
+    <section id="our-work" className={styles.section}>
       <div className={styles.inner}>
         <Reveal className={styles.intro}>
           <div className={styles.eyebrow}>{t("eyebrow")}</div>

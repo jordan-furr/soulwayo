@@ -30,12 +30,12 @@ export default function SpaceSection() {
               <span className={styles.pathLabel}>{t("path1Label")}</span>
               <span className={styles.pathDest}>{t("path1Dest1")}</span>
             </Link>
-            <div className={styles.pathCard}>
+            <a href="#our-work" className={styles.pathCard}>
               <span className={styles.pathEmoji}>{t("path2Emoji")}</span>
               <span className={styles.pathLabel}>{t("path2Label")}</span>
               <span className={styles.pathDest}>{t("path2Dest1")}</span>
               <span className={styles.pathDest}>{t("path2Dest2")}</span>
-            </div>
+            </a>
             <div className={styles.pathCard}>
               <span className={styles.pathEmoji}>{t("path3Emoji")}</span>
               <span className={styles.pathLabel}>{t("path3Label")}</span>
