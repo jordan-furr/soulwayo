@@ -3,6 +3,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/sections/Hero";
 import RetreatsFeature from "@/components/sections/RetreatsFeature";
+import MarketStrip from "@/components/sections/MarketStrip";
 import SpaceSection from "@/components/sections/SpaceSection";
 import PillarsSection from "@/components/sections/PillarsSection";
 import OurStoryIntro from "@/components/sections/OurStoryIntro";
@@ -23,6 +24,7 @@ export default async function Home({
         <Hero />
         <RetreatsFeature />
         <SpaceSection />
+        <MarketStrip />
         <PillarsSection />
         <OurStoryIntro />
         <FinalCta />

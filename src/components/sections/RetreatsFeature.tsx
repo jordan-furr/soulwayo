@@ -7,7 +7,6 @@ import { Link } from "@/i18n/navigation";
 import Reveal from "@/components/Reveal";
 import styles from "./RetreatsFeature.module.css";
 import singingImg from "../../../public/images/singing.jpeg";
-import flyerOct from "../../../public/images/sacred-cacao-peru.jpg";
 import flyerDec from "../../../public/images/flyer-return-to-soul.jpeg";
 
 export default function RetreatsFeature() {
@@ -59,26 +58,6 @@ export default function RetreatsFeature() {
         <Reveal delay={0.16} className={styles.dates}>
           <h3 className={styles.datesTitle}>{t("upcomingDates")}</h3>
           <div className={styles.dateGrid}>
-            <div className={styles.dateCard}>
-              <button
-                type="button"
-                className={styles.flyerBtn}
-                onClick={() => setLightbox(flyerOct)}
-              >
-                <Image
-                  src={flyerOct}
-                  alt="Soulwayo Sacred Cacao aus Peru"
-                  className={styles.flyer}
-                  width={180}
-                  height={204}
-                />
-              </button>
-              <div>
-                <div className={styles.dateEyebrow}>{t("event1Eyebrow")}</div>
-                <div className={styles.dateTitle}>{t("event1Title")}</div>
-                <div className={styles.dateDetails}>{t("event1Details")}</div>
-              </div>
-            </div>
             <div className={styles.dateCard}>
               <button
                 type="button"

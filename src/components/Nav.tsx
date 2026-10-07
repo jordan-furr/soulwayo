@@ -7,11 +7,26 @@ import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import styles from "./Nav.module.css";
 import logo from "../../public/images/soulwayo-logo.jpeg";
 
-const NAV_LINKS = [
+type NavKey = "retreats" | "cacao" | "about" | "cacaoMeditation" | "cacaoMarket";
+type NavHref = "/retreats" | "/cacao" | "/cacao/market" | "/about";
+type NavItem = {
+  key: NavKey;
+  href: NavHref;
+  children?: { key: NavKey; href: NavHref }[];
+};
+
+const NAV_LINKS: NavItem[] = [
   { key: "retreats", href: "/retreats" },
-  { key: "cacao", href: "/cacao" },
+  {
+    key: "cacao",
+    href: "/cacao",
+    children: [
+      { key: "cacaoMeditation", href: "/cacao" },
+      { key: "cacaoMarket", href: "/cacao/market" },
+    ],
+  },
   { key: "about", href: "/about" },
-] as const;
+];
 
 const TRANSPARENT_PAGES = ["/", "/retreats"];
 
@@ -83,15 +98,38 @@ export default function Nav() {
         </Link>
 
         <div className={styles.desktopNav}>
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.key}
-              href={link.href}
-              className={`${styles.navLink} ${pathname === link.href ? styles.navLinkActive : ""}`}
-            >
-              {t(link.key)}
-            </Link>
-          ))}
+          {NAV_LINKS.map((link) =>
+            link.children ? (
+              <div key={link.key} className={styles.dropdown}>
+                <Link
+                  href={link.href}
+                  aria-haspopup="true"
+                  className={`${styles.navLink} ${pathname.startsWith(link.href) ? styles.navLinkActive : ""}`}
+                >
+                  {t(link.key)} <span className={styles.caret}>▾</span>
+                </Link>
+                <div className={styles.dropdownMenu}>
+                  {link.children.map((child) => (
+                    <Link
+                      key={child.key}
+                      href={child.href}
+                      className={`${styles.dropdownLink} ${pathname === child.href ? styles.navLinkActive : ""}`}
+                    >
+                      {t(child.key)}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <Link
+                key={link.key}
+                href={link.href}
+                className={`${styles.navLink} ${pathname === link.href ? styles.navLinkActive : ""}`}
+              >
+                {t(link.key)}
+              </Link>
+            )
+          )}
           <Link
             href="/contact"
             className={`${styles.contactLink} ${pathname === "/contact" ? styles.navLinkActive : ""}`}
@@ -134,16 +172,18 @@ export default function Nav() {
         <Link href="/" className={styles.drawerLink} onClick={() => setMenuOpen(false)}>
           {t("home")}
         </Link>
-        {NAV_LINKS.map((link) => (
-          <Link
-            key={link.key}
-            href={link.href}
-            className={`${styles.drawerLink} ${pathname === link.href ? styles.drawerLinkActive : ""}`}
-            onClick={() => setMenuOpen(false)}
-          >
-            {t(link.key)}
-          </Link>
-        ))}
+        {NAV_LINKS.flatMap((link) =>
+          (link.children ?? [link]).map((item) => (
+            <Link
+              key={item.key}
+              href={item.href}
+              className={`${styles.drawerLink} ${pathname === item.href ? styles.drawerLinkActive : ""}`}
+              onClick={() => setMenuOpen(false)}
+            >
+              {t(item.key)}
+            </Link>
+          ))
+        )}
         <Link
           href="/contact"
           className={styles.drawerContact}

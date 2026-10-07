@@ -30,29 +30,39 @@ type Closing = {
   motto: string;
 };
 
+// Each product group gets its own colour band, cycling if more are added.
+const BAND_TONES = ["sand", "sage", "turmeric", "cacao"] as const;
+
 export default function CacaoGifts() {
-  const t = useTranslations("cacao.gifts");
+  const t = useTranslations("market.gifts");
   const intro = t.raw("intro") as string[];
   const sections = t.raw("sections") as Section[];
   const closing = t.raw("closing") as Closing;
 
   return (
-    <section className={styles.section}>
-      <div className={styles.inner}>
-        <Reveal as="header" className={styles.header}>
-          <div className={styles.eyebrow}>{t("eyebrow")}</div>
-          <h2 className={styles.title}>{t("title")}</h2>
-          <p className={styles.subtitle}>{t("subtitle")}</p>
-        </Reveal>
+    <>
+      <section className={`${styles.band} ${styles.paper}`}>
+        <div className={styles.inner}>
+          <Reveal as="header" className={styles.header}>
+            <div className={styles.eyebrow}>{t("eyebrow")}</div>
+            <h2 className={styles.title}>{t("title")}</h2>
+            <p className={styles.subtitle}>{t("subtitle")}</p>
+          </Reveal>
 
-        <Reveal className={styles.block}>
-          {intro.map((p, i) => (
-            <p key={i} className={styles.body}>{p}</p>
-          ))}
-        </Reveal>
+          <Reveal className={styles.block}>
+            {intro.map((p, i) => (
+              <p key={i} className={styles.body}>{p}</p>
+            ))}
+          </Reveal>
+        </div>
+      </section>
 
-        {sections.map((section) => (
-          <div key={section.title} className={styles.group}>
+      {sections.map((section, index) => (
+        <section
+          key={section.title}
+          className={`${styles.band} ${styles[BAND_TONES[index % BAND_TONES.length]]}`}
+        >
+          <div className={styles.inner}>
             <Reveal className={styles.groupHeader}>
               <h3 className={styles.groupTitle}>{section.title}</h3>
               <p className={styles.groupSubtitle}>{section.subtitle}</p>
@@ -94,9 +104,11 @@ export default function CacaoGifts() {
               </Reveal>
             )}
           </div>
-        ))}
+        </section>
+      ))}
 
-        <Reveal className={styles.group}>
+      <section className={`${styles.band} ${styles.cream}`}>
+        <Reveal className={styles.inner}>
           <h3 className={styles.groupTitle}>{closing.title}</h3>
           {closing.body.map((p, i) => (
             <p key={i} className={styles.body}>{p}</p>
@@ -110,7 +122,7 @@ export default function CacaoGifts() {
           </p>
           <p className={styles.motto}>{closing.motto}</p>
         </Reveal>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

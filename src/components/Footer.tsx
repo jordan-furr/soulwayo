@@ -17,7 +17,8 @@ export default function Footer() {
         <div className={styles.columns}>
           <div className={styles.column}>
             <Link href="/retreats" className={styles.navLink}>{tNav("retreats")}</Link>
-            <Link href="/cacao" className={styles.navLink}>{tNav("cacao")}</Link>
+            <Link href="/cacao" className={styles.navLink}>{tNav("cacaoMeditation")}</Link>
+            <Link href="/cacao/market" className={styles.navLink}>{tNav("cacaoMarket")}</Link>
             <Link href="/about" className={styles.navLink}>{tNav("about")}</Link>
           </div>
           <div className={styles.column}>

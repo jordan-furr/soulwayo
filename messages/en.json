@@ -6,6 +6,8 @@
   "nav": {
     "retreats": "Retreats",
     "cacao": "Cacao",
+    "cacaoMeditation": "Cacao Meditation",
+    "cacaoMarket": "Buy Cacao",
     "about": "About",
     "contact": "Contact",
     "home": "Home",
@@ -30,11 +32,8 @@
       "rhythmRetreats": "Retreats",
       "rhythmRetreatsValue": "Once a season",
       "rhythmCeremony": "Cacao Ceremony · Community Meditation",
-      "rhythmCeremonyValue": "Every Thursday",
+      "rhythmCeremonyValue": "Once a month, for the new moon",
       "upcomingDates": "Upcoming dates",
-      "event1Eyebrow": "Every Thursday",
-      "event1Title": "Soulwayo Sacred Cacao",
-      "event1Details": "Volketswil, Switzerland · 8:30 – 12:00",
       "event2Eyebrow": "Winter Retreat",
       "event2Title": "Return to Soul",
       "event2Details": "3rd – 6th December 2026 · Schwarzenberg, Austria",
@@ -60,6 +59,13 @@
       "path3Label": "I want transformation",
       "path3Dest1": "→ Retreats",
       "path3Dest2": "→ Ceremony, Fire & Cacao"
+    },
+    "marketStrip": {
+      "eyebrow": "Sacred Cacao Market",
+      "title": "Every Thursday at the market in Volketswil",
+      "body": "Sacred Cacao from Peru — as a warm drink or by the kilo — alongside our incense blends, botanical baths and herbal salts. Stop by, have a cup and say hello.",
+      "details": "Every Thursday · 8:30 – 12:00 · Volketswil",
+      "cta": "Learn about our cacao"
     },
     "ourWork": {
       "eyebrow": "Our Work",
@@ -353,14 +359,14 @@
       "eyebrow": "Cacao Ceremony · Community Meditation",
       "headline": "A Sacred Journey for Body, Mind, Heart & Soul",
       "body": "A Cacao Ceremony is a consciously held ritual space — an invitation to step away from the speed and noise of everyday life and enter into a deeper relationship with yourself.",
-      "note": "Find us every Thursday, 8:30 – 12:00 in Volketswil."
+      "note": "Often called our community meditation — held once a month, for the new moon."
     },
     "nextCeremony": {
-      "eyebrow": "Every Thursday",
-      "title": "Soulwayo Sacred Cacao",
-      "date": "Every Thursday · 8:30 – 12:00",
-      "location": "Volketswil, Switzerland",
-      "tagline": "Sacred Cacao from Peru — as a drink & by the kilo.",
+      "eyebrow": "Community Meditation",
+      "title": "Soulshine Community Meditation",
+      "date": "Once a month, for the new moon · 7:00 – 9:00 PM",
+      "location": "Forest in Zurich, Switzerland",
+      "tagline": "Connect · Breathe · Feel · Remember — together.",
       "cta": "Save your space"
     },
     "invitation": {
@@ -391,6 +397,26 @@
       "callout": "If you are pregnant or breastfeeding, have a cardiovascular or other significant medical condition, take regular medication, are particularly sensitive to stimulants, or are unsure whether ceremonial cacao is appropriate for you, please speak with an appropriate healthcare professional and let us know before participating.",
       "p3": "Our ceremonies are intended to support self-exploration, embodiment, connection, and personal reflection. They are not a substitute for medical treatment, psychotherapy, psychiatric care, or other professional healthcare.",
       "p4": "Your wellbeing and your boundaries always come first."
+    },
+    "closing": {
+      "stanza": "Return to your body.\nReturn to your heart.\nReturn to yourself.",
+      "cta": "Ask about the next ceremony"
+    }
+  },
+  "market": {
+    "hero": {
+      "eyebrow": "Sacred Cacao Market",
+      "headline": "Sacred Cacao from Peru",
+      "body": "Every Thursday morning we bring our cacao, incense blends, botanical baths and herbal salts to the market in Volketswil. Come for a warm cup, take some home by the kilo, or simply stop by and say hello.",
+      "note": "Every Thursday · 8:30 – 12:00 · Volketswil"
+    },
+    "visit": {
+      "eyebrow": "Find us at the market",
+      "title": "Soulwayo Sacred Cacao",
+      "date": "Every Thursday · 8:30 – 12:00",
+      "location": "Volketswil, Switzerland",
+      "tagline": "Sacred Cacao from Peru — as a drink & by the kilo.",
+      "cta": "Get in touch"
     },
     "gifts": {
       "eyebrow": "Soulwayo",
@@ -577,9 +603,13 @@
         "motto": "Soulwayo – Rooted in eArth guided by heArt."
       }
     },
-    "closing": {
-      "stanza": "Return to your body.\nReturn to your heart.\nReturn to yourself.",
-      "cta": "Ask about the next ceremony"
+    "meditationInvite": {
+      "eyebrow": "Cacao Meditation",
+      "title": "Experience cacao in ceremony",
+      "body": "Once a month, for the new moon, we gather in the forest near Zurich for our Soulshine Community Meditation — breath, music, silence and a shared cup of ceremonial cacao.",
+      "details": "Once a month, for the new moon · 7:00 – 9:00 PM",
+      "cta": "Save your space",
+      "secondary": "About the meditation →"
     }
   },
   "about": {
@@ -665,8 +695,10 @@
       "retreat3": "Summer Retreat — Jun 24–27, 2027",
       "retreat4": "Autumn Retreat — Sep 24–27, 2027",
       "groupRetreats": "Retreats",
-      "groupWeekly": "Every Thursday",
-      "weekly": "Sacred Cacao — Thursdays, 8:30–12:00, Volketswil",
+      "groupMeditations": "Community Meditation",
+      "meditation1": "Community Meditation — November 2026",
+      "meditation2": "Community Meditation — December 2026",
+      "meditation3": "Community Meditation — January 2027",
       "message": "Anything else you'd like us to know",
       "submit": "Submit booking request"
     },

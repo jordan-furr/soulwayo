@@ -6,6 +6,8 @@
   "nav": {
     "retreats": "Retreats",
     "cacao": "Kakao",
+    "cacaoMeditation": "Kakao-Meditation",
+    "cacaoMarket": "Kakao kaufen",
     "about": "Über uns",
     "contact": "Kontakt",
     "home": "Start",
@@ -30,11 +32,8 @@
       "rhythmRetreats": "Retreats",
       "rhythmRetreatsValue": "Einmal pro Jahreszeit",
       "rhythmCeremony": "Kakao-Zeremonie · Gemeinschaftsmeditation",
-      "rhythmCeremonyValue": "Jeden Donnerstag",
+      "rhythmCeremonyValue": "Einmal im Monat, zum Neumond",
       "upcomingDates": "Kommende Termine",
-      "event1Eyebrow": "Jeden Donnerstag",
-      "event1Title": "Soulwayo Sacred Cacao",
-      "event1Details": "Volketswil, Schweiz · 8:30 – 12:00 Uhr",
       "event2Eyebrow": "Winter-Retreat",
       "event2Title": "Return to Soul",
       "event2Details": "3.–6. Dezember 2026 · Schwarzenberg, Österreich",
@@ -60,6 +59,13 @@
       "path3Label": "Ich wünsche mir Transformation",
       "path3Dest1": "→ Retreats",
       "path3Dest2": "→ Zeremonie, Feuer & Kakao"
+    },
+    "marketStrip": {
+      "eyebrow": "Sacred-Cacao-Markt",
+      "title": "Jeden Donnerstag am Markt in Volketswil",
+      "body": "Sacred Cacao aus Peru – als warmes Getränk oder kiloweise – dazu unsere Räuchermischungen, Kräuterbäder und Kräutersalze. Komm vorbei, trink eine Tasse und sag Hallo.",
+      "details": "Jeden Donnerstag · 8:30 – 12:00 Uhr · Volketswil",
+      "cta": "Mehr über unseren Kakao"
     },
     "ourWork": {
       "eyebrow": "Unsere Arbeit",
@@ -353,14 +359,14 @@
       "eyebrow": "Kakao-Zeremonie · Gemeinschaftsmeditation",
       "headline": "Eine heilige Reise für Körper, Geist, Herz & Seele",
       "body": "Eine Kakao-Zeremonie ist ein bewusst gehaltener Ritualraum – eine Einladung, aus dem Tempo und dem Lärm des Alltags herauszutreten und in eine tiefere Beziehung mit dir selbst einzutreten.",
-      "note": "Du findest uns jeden Donnerstag von 8:30 bis 12:00 Uhr in Volketswil."
+      "note": "Oft auch unsere Gemeinschaftsmeditation genannt – einmal im Monat, zum Neumond."
     },
     "nextCeremony": {
-      "eyebrow": "Jeden Donnerstag",
-      "title": "Soulwayo Sacred Cacao",
-      "date": "Jeden Donnerstag · 8:30 – 12:00 Uhr",
-      "location": "Volketswil, Schweiz",
-      "tagline": "Sacred Cacao aus Peru – als Getränk & kiloweise.",
+      "eyebrow": "Gemeinschaftsmeditation",
+      "title": "Soulshine Community Meditation",
+      "date": "Einmal im Monat, zum Neumond · 19:00 – 21:00 Uhr",
+      "location": "Im Wald bei Zürich, Schweiz",
+      "tagline": "Verbinden · Atmen · Fühlen · Erinnern – gemeinsam.",
       "cta": "Sichere dir deinen Platz"
     },
     "invitation": {
@@ -391,6 +397,26 @@
       "callout": "Wenn du schwanger bist oder stillst, eine Herz-Kreislauf-Erkrankung oder eine andere ernsthafte Erkrankung hast, regelmässig Medikamente einnimmst, besonders empfindlich auf anregende Stoffe reagierst oder unsicher bist, ob zeremonieller Kakao für dich geeignet ist, sprich bitte vorher mit einer entsprechenden Fachperson und gib uns vor der Teilnahme Bescheid.",
       "p3": "Unsere Zeremonien sollen Selbsterkundung, Verkörperung, Verbindung und persönliche Reflexion unterstützen. Sie sind kein Ersatz für medizinische Behandlung, Psychotherapie, psychiatrische Versorgung oder andere professionelle Gesundheitsversorgung.",
       "p4": "Dein Wohlbefinden und deine Grenzen stehen immer an erster Stelle."
+    },
+    "closing": {
+      "stanza": "Kehre zurück zu deinem Körper.\nKehre zurück zu deinem Herzen.\nKehre zurück zu dir selbst.",
+      "cta": "Nach der nächsten Zeremonie fragen"
+    }
+  },
+  "market": {
+    "hero": {
+      "eyebrow": "Sacred-Cacao-Markt",
+      "headline": "Sacred Cacao aus Peru",
+      "body": "Jeden Donnerstagmorgen bringen wir unseren Kakao, unsere Räuchermischungen, Kräuterbäder und Kräutersalze auf den Markt in Volketswil. Komm auf eine warme Tasse vorbei, nimm Kakao kiloweise mit nach Hause oder sag einfach Hallo.",
+      "note": "Jeden Donnerstag · 8:30 – 12:00 Uhr · Volketswil"
+    },
+    "visit": {
+      "eyebrow": "Besuche uns am Markt",
+      "title": "Soulwayo Sacred Cacao",
+      "date": "Jeden Donnerstag · 8:30 – 12:00 Uhr",
+      "location": "Volketswil, Schweiz",
+      "tagline": "Sacred Cacao aus Peru – als Getränk & kiloweise.",
+      "cta": "Kontakt aufnehmen"
     },
     "gifts": {
       "eyebrow": "Soulwayo",
@@ -577,9 +603,13 @@
         "motto": "Soulwayo – Rooted in eArth guided by heArt."
       }
     },
-    "closing": {
-      "stanza": "Kehre zurück zu deinem Körper.\nKehre zurück zu deinem Herzen.\nKehre zurück zu dir selbst.",
-      "cta": "Nach der nächsten Zeremonie fragen"
+    "meditationInvite": {
+      "eyebrow": "Kakao-Meditation",
+      "title": "Kakao in der Zeremonie erleben",
+      "body": "Einmal im Monat, zum Neumond, treffen wir uns im Wald bei Zürich zu unserer Soulshine Community Meditation – mit Atem, Musik, Stille und einer gemeinsamen Tasse zeremoniellem Kakao.",
+      "details": "Einmal im Monat, zum Neumond · 19:00 – 21:00 Uhr",
+      "cta": "Sichere dir deinen Platz",
+      "secondary": "Mehr zur Meditation →"
     }
   },
   "about": {
@@ -665,8 +695,10 @@
       "retreat3": "Sommer-Retreat — 24.–27. Juni 2027",
       "retreat4": "Herbst-Retreat — 24.–27. Sep. 2027",
       "groupRetreats": "Retreats",
-      "groupWeekly": "Jeden Donnerstag",
-      "weekly": "Sacred Cacao — donnerstags, 8:30–12:00 Uhr, Volketswil",
+      "groupMeditations": "Gemeinschaftsmeditation",
+      "meditation1": "Gemeinschaftsmeditation — November 2026",
+      "meditation2": "Gemeinschaftsmeditation — Dezember 2026",
+      "meditation3": "Gemeinschaftsmeditation — Januar 2027",
       "message": "Möchtest du uns noch etwas mitteilen?",
       "submit": "Buchungsanfrage senden"
     },

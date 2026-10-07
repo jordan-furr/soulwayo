@@ -1,46 +1,23 @@
 "use client";
 
-import { useMemo, useState, useSyncExternalStore } from "react";
-import { useLocale, useTranslations } from "next-intl";
+import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { siteConfig } from "@/lib/site";
 import styles from "./BookingForm.module.css";
 
 const RETREAT_KEYS = ["retreat1", "retreat2", "retreat3", "retreat4"] as const;
-const UPCOMING_THURSDAYS = 6;
-
-const noopSubscribe = () => () => {};
-
-// Next few Thursdays, including today if it is Thursday.
-function upcomingThursdays(locale: string): string[] {
-  const now = new Date();
-  const d = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  const offset = (4 - d.getDay() + 7) % 7;
-  d.setDate(d.getDate() + offset);
-
-  const fmt = new Intl.DateTimeFormat(locale, {
-    weekday: "short",
-    day: "numeric",
-    month: "short",
-  });
-  return Array.from({ length: UPCOMING_THURSDAYS }, (_, i) => {
-    const date = new Date(d);
-    date.setDate(d.getDate() + i * 7);
-    return fmt.format(date);
-  });
-}
+const MEDITATION_KEYS = ["meditation1", "meditation2", "meditation3"] as const;
 
 export default function BookingForm() {
   const t = useTranslations("booking");
   const tForm = useTranslations("booking.form");
-  const locale = useLocale();
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [selected, setSelected] = useState<string[]>([]);
-  const [selectedDates, setSelectedDates] = useState<string[]>([]);
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
   const [error, setError] = useState("");
@@ -51,36 +28,11 @@ export default function BookingForm() {
     );
   };
 
-  // Read the date only in the browser so the statically built page never
-  // bakes in a stale list (the server snapshot is empty).
-  const today = useSyncExternalStore(
-    noopSubscribe,
-    () => new Date().toDateString(),
-    () => ""
-  );
-  const thursdays = useMemo(
-    () => (today ? upcomingThursdays(locale) : []),
-    [today, locale]
-  );
-
-  const toggleDate = (date: string) => {
-    setSelectedDates((prev) =>
-      prev.includes(date) ? prev.filter((d) => d !== date) : [...prev, date]
-    );
-  };
-
-  const interests = [
-    ...selected.map((k) => tForm(k as never)),
-    ...(selectedDates.length > 0
-      ? [`${tForm("weekly")} (${thursdays.filter((d) => selectedDates.includes(d)).join(", ")})`]
-      : []),
-  ];
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
 
-    if (!name.trim() || !email.trim() || interests.length === 0) {
+    if (!name.trim() || !email.trim() || selected.length === 0) {
       setError("Please fill in your name, email, and select at least one option.");
       return;
     }
@@ -95,7 +47,7 @@ export default function BookingForm() {
           email: email.trim(),
           phone: phone.trim(),
           message: message.trim(),
-          interests,
+          interests: selected.map((k) => tForm(k as never)),
           type: "booking",
         }),
       });
@@ -184,20 +136,19 @@ export default function BookingForm() {
               ))}
             </div>
 
-            <div className={styles.groupLabel}>{tForm("groupWeekly")}</div>
-            <p className={styles.groupNote}>{tForm("weekly")}</p>
+            <div className={styles.groupLabel}>{tForm("groupMeditations")}</div>
             <div className={styles.pills}>
-              {thursdays.map((date) => (
+              {MEDITATION_KEYS.map((key) => (
                 <button
-                  key={date}
+                  key={key}
                   type="button"
-                  className={`${styles.pill} ${selectedDates.includes(date) ? styles.pillActive : ""}`}
-                  onClick={() => toggleDate(date)}
+                  className={`${styles.pill} ${selected.includes(key) ? styles.pillActive : ""}`}
+                  onClick={() => toggle(key)}
                 >
                   <span className={styles.pillIcon}>
-                    {selectedDates.includes(date) ? "✓" : "+"}
+                    {selected.includes(key) ? "✓" : "+"}
                   </span>
-                  {date}
+                  {tForm(key)}
                 </button>
               ))}
             </div>

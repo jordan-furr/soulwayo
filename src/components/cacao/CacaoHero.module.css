@@ -3,6 +3,10 @@
   padding: clamp(140px, 18vh, 200px) 6vw clamp(90px, 12vh, 140px);
 }
 
+.heroBrown {
+  background: #3E2418;
+}
+
 .inner {
   max-width: 1240px;
   margin: 0 auto;
@@ -74,6 +78,10 @@
 @media (max-width: 900px) {
   .inner {
     grid-template-columns: 1fr;
+  }
+
+  .desktopOnly {
+    display: none;
   }
 
   .imageWrap {

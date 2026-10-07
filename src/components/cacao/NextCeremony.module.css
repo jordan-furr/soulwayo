@@ -3,6 +3,14 @@
   padding: clamp(90px, 13vh, 160px) 6vw;
 }
 
+.sectionBrown {
+  background: #6B4430;
+}
+
+.sectionBrown .eyebrow {
+  color: var(--gold);
+}
+
 .wrap {
   max-width: 1100px;
   margin: 0 auto;
@@ -24,6 +32,12 @@
   grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
   gap: clamp(40px, 6vw, 90px);
   align-items: center;
+}
+
+.single {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .flyerWrap {

@@ -7,7 +7,6 @@ import InvitationStanza from "@/components/cacao/InvitationStanza";
 import AboutCacao from "@/components/cacao/AboutCacao";
 import JourneyLinkCard from "@/components/cacao/JourneyLinkCard";
 import CacaoForEveryone from "@/components/cacao/CacaoForEveryone";
-import CacaoGifts from "@/components/cacao/CacaoGifts";
 import CacaoClosing from "@/components/cacao/CacaoClosing";
 
 export default async function CacaoPage({
@@ -28,7 +27,6 @@ export default async function CacaoPage({
         <AboutCacao />
         <JourneyLinkCard />
         <CacaoForEveryone />
-        <CacaoGifts />
         <CacaoClosing />
       </main>
       <Footer />
