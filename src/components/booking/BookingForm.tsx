@@ -1,14 +1,15 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { siteConfig } from "@/lib/site";
 import styles from "./BookingForm.module.css";
 
 const RETREAT_KEYS = ["retreat1", "retreat2", "retreat3", "retreat4"] as const;
-const WEEKLY_KEY = "weekly";
 const UPCOMING_THURSDAYS = 6;
+
+const noopSubscribe = () => () => {};
 
 // Next few Thursdays, including today if it is Thursday.
 function upcomingThursdays(locale: string): string[] {
@@ -39,7 +40,6 @@ export default function BookingForm() {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [selected, setSelected] = useState<string[]>([]);
-  const [thursdays, setThursdays] = useState<string[]>([]);
   const [selectedDates, setSelectedDates] = useState<string[]>([]);
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
@@ -51,16 +51,17 @@ export default function BookingForm() {
     );
   };
 
-  // Dates are computed on click rather than during render so the statically
-  // built page never bakes in a stale list.
-  const toggleWeekly = () => {
-    if (selected.includes(WEEKLY_KEY)) {
-      setSelectedDates([]);
-    } else {
-      setThursdays(upcomingThursdays(locale));
-    }
-    toggle(WEEKLY_KEY);
-  };
+  // Read the date only in the browser so the statically built page never
+  // bakes in a stale list (the server snapshot is empty).
+  const today = useSyncExternalStore(
+    noopSubscribe,
+    () => new Date().toDateString(),
+    () => ""
+  );
+  const thursdays = useMemo(
+    () => (today ? upcomingThursdays(locale) : []),
+    [today, locale]
+  );
 
   const toggleDate = (date: string) => {
     setSelectedDates((prev) =>
@@ -68,16 +69,18 @@ export default function BookingForm() {
     );
   };
 
-  const interestLabel = (key: string) =>
-    key === WEEKLY_KEY && selectedDates.length > 0
-      ? `${tForm(WEEKLY_KEY)} (${thursdays.filter((d) => selectedDates.includes(d)).join(", ")})`
-      : tForm(key as never);
+  const interests = [
+    ...selected.map((k) => tForm(k as never)),
+    ...(selectedDates.length > 0
+      ? [`${tForm("weekly")} (${thursdays.filter((d) => selectedDates.includes(d)).join(", ")})`]
+      : []),
+  ];
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
 
-    if (!name.trim() || !email.trim() || selected.length === 0) {
+    if (!name.trim() || !email.trim() || interests.length === 0) {
       setError("Please fill in your name, email, and select at least one option.");
       return;
     }
@@ -92,7 +95,7 @@ export default function BookingForm() {
           email: email.trim(),
           phone: phone.trim(),
           message: message.trim(),
-          interests: selected.map(interestLabel),
+          interests,
           type: "booking",
         }),
       });
@@ -182,39 +185,22 @@ export default function BookingForm() {
             </div>
 
             <div className={styles.groupLabel}>{tForm("groupWeekly")}</div>
+            <p className={styles.groupNote}>{tForm("weekly")}</p>
             <div className={styles.pills}>
-              <button
-                type="button"
-                className={`${styles.pill} ${selected.includes(WEEKLY_KEY) ? styles.pillActive : ""}`}
-                onClick={toggleWeekly}
-              >
-                <span className={styles.pillIcon}>
-                  {selected.includes(WEEKLY_KEY) ? "✓" : "+"}
-                </span>
-                {tForm(WEEKLY_KEY)}
-              </button>
+              {thursdays.map((date) => (
+                <button
+                  key={date}
+                  type="button"
+                  className={`${styles.pill} ${selectedDates.includes(date) ? styles.pillActive : ""}`}
+                  onClick={() => toggleDate(date)}
+                >
+                  <span className={styles.pillIcon}>
+                    {selectedDates.includes(date) ? "✓" : "+"}
+                  </span>
+                  {date}
+                </button>
+              ))}
             </div>
-
-            {selected.includes(WEEKLY_KEY) && (
-              <>
-                <div className={styles.groupLabel}>{tForm("weeklyDatesLabel")}</div>
-                <div className={styles.pills}>
-                  {thursdays.map((date) => (
-                    <button
-                      key={date}
-                      type="button"
-                      className={`${styles.pill} ${selectedDates.includes(date) ? styles.pillActive : ""}`}
-                      onClick={() => toggleDate(date)}
-                    >
-                      <span className={styles.pillIcon}>
-                        {selectedDates.includes(date) ? "✓" : "+"}
-                      </span>
-                      {date}
-                    </button>
-                  ))}
-                </div>
-              </>
-            )}
           </div>
 
           <label className={styles.field}>

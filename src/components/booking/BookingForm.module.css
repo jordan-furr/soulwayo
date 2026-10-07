@@ -73,6 +73,13 @@
   color: var(--forest);
 }
 
+.groupNote {
+  margin: 0 0 4px;
+  font-family: var(--font-raleway);
+  font-size: 13px;
+  color: var(--body-muted);
+}
+
 .input,
 .textarea {
   width: 100%;
