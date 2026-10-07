@@ -664,9 +664,10 @@
       "retreat2": "Spring Retreat — Mar 24–27, 2027",
       "retreat3": "Summer Retreat — Jun 24–27, 2027",
       "retreat4": "Autumn Retreat — Sep 24–27, 2027",
-      "meditation1": "Community Meditation — October 2026",
-      "meditation2": "Community Meditation — November 2026",
-      "meditation3": "Community Meditation — December 2026",
+      "groupRetreats": "Retreats",
+      "groupWeekly": "Every Thursday",
+      "weekly": "Sacred Cacao — Thursdays, 8:30–12:00, Volketswil",
+      "weeklyDatesLabel": "Which Thursday(s)?",
       "message": "Anything else you'd like us to know",
       "submit": "Submit booking request"
     },
