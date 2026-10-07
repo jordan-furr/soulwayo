@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import Reveal from "@/components/Reveal";
 import styles from "./CacaoHero.module.css";
-import fireCircle from "../../../public/images/retreat-ceremony-tent.jpeg";
+import heroImg from "../../../public/images/sarah-johannes-illustration.jpg";
 
 export default function CacaoHero() {
   const t = useTranslations("cacao.hero");
@@ -24,10 +24,11 @@ export default function CacaoHero() {
         </div>
         <Reveal delay={0.2} className={styles.imageWrap}>
           <Image
-            src={fireCircle}
-            alt="Cacao ceremony fire circle"
+            src={heroImg}
+            alt="Illustration of Sarah and Johannes walking hand in hand"
             fill
-            sizes="(max-width: 900px) 90vw, 45vw"
+            sizes="(max-width: 900px) 90vw, 440px"
+            priority
             className={styles.image}
           />
         </Reveal>

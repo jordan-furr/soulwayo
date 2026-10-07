@@ -7,7 +7,7 @@ import { Link } from "@/i18n/navigation";
 import Reveal from "@/components/Reveal";
 import styles from "./RetreatsFeature.module.css";
 import singingImg from "../../../public/images/singing.jpeg";
-import flyerOct from "../../../public/images/flyer-october-meditation.jpeg";
+import flyerOct from "../../../public/images/sacred-cacao-peru.jpg";
 import flyerDec from "../../../public/images/flyer-return-to-soul.jpeg";
 
 export default function RetreatsFeature() {
@@ -67,10 +67,10 @@ export default function RetreatsFeature() {
               >
                 <Image
                   src={flyerOct}
-                  alt="Community Meditation flyer"
+                  alt="Soulwayo Sacred Cacao aus Peru"
                   className={styles.flyer}
                   width={180}
-                  height={254}
+                  height={204}
                 />
               </button>
               <div>

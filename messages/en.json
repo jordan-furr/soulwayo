@@ -30,11 +30,11 @@
       "rhythmRetreats": "Retreats",
       "rhythmRetreatsValue": "Once a season",
       "rhythmCeremony": "Cacao Ceremony · Community Meditation",
-      "rhythmCeremonyValue": "Once a month, on the new moon",
+      "rhythmCeremonyValue": "Every Thursday",
       "upcomingDates": "Upcoming dates",
-      "event1Eyebrow": "Community Meditation",
-      "event1Title": "Soulshine Community Meditation",
-      "event1Details": "4 October 2026 · Forest in Zurich, Switzerland · 7:00 – 9:00 PM",
+      "event1Eyebrow": "Every Thursday",
+      "event1Title": "Soulwayo Sacred Cacao",
+      "event1Details": "Volketswil, Switzerland · 8:30 – 12:00",
       "event2Eyebrow": "Winter Retreat",
       "event2Title": "Return to Soul",
       "event2Details": "3rd – 6th December 2026 · Schwarzenberg, Austria",
@@ -353,14 +353,14 @@
       "eyebrow": "Cacao Ceremony · Community Meditation",
       "headline": "A Sacred Journey for Body, Mind, Heart & Soul",
       "body": "A Cacao Ceremony is a consciously held ritual space — an invitation to step away from the speed and noise of everyday life and enter into a deeper relationship with yourself.",
-      "note": "Often called our community meditation — held once a month, on the new moon."
+      "note": "Find us every Thursday, 8:30 – 12:00 in Volketswil."
     },
     "nextCeremony": {
-      "eyebrow": "Next Community Meditation",
-      "title": "Soulshine Community Meditation",
-      "date": "4 October 2026 · 7:00 – 9:00 PM",
-      "location": "Forest in Zurich, Switzerland",
-      "tagline": "Connect · Breathe · Feel · Remember — together.",
+      "eyebrow": "Every Thursday",
+      "title": "Soulwayo Sacred Cacao",
+      "date": "Every Thursday · 8:30 – 12:00",
+      "location": "Volketswil, Switzerland",
+      "tagline": "Sacred Cacao from Peru — as a drink & by the kilo.",
       "cta": "Save your space"
     },
     "invitation": {
@@ -391,6 +391,191 @@
       "callout": "If you are pregnant or breastfeeding, have a cardiovascular or other significant medical condition, take regular medication, are particularly sensitive to stimulants, or are unsure whether ceremonial cacao is appropriate for you, please speak with an appropriate healthcare professional and let us know before participating.",
       "p3": "Our ceremonies are intended to support self-exploration, embodiment, connection, and personal reflection. They are not a substitute for medical treatment, psychotherapy, psychiatric care, or other professional healthcare.",
       "p4": "Your wellbeing and your boundaries always come first."
+    },
+    "gifts": {
+      "eyebrow": "Soulwayo",
+      "title": "Gifts of the Earth, Rituals of the Heart",
+      "subtitle": "Rooted in Earth. Guided by Heart.",
+      "intro": [
+        "Sometimes, the journey back to ourselves begins with something simple: a fragrance that makes us pause. A warm cup held between our hands. Water touching our skin. A meal we take the time to truly taste.",
+        "Soulwayo’s shamanically inspired products invite you to bring meaning back to these moments. They bring together plants, sensory pleasure and personal rituals, woven with our love for the Earth.",
+        "For us, the sacred lives within everyday life, too. We encounter it in cooking, listening, singing and the quiet decision to treat ourselves with kindness. A ritual can become a small threshold: you pause, sense what is present and consciously choose how you wish to move forward.",
+        "This understanding inspires our incense blends, botanical baths, herbal salts and cacao rituals. Their spiritual meanings are invitations you may fill with your own experiences."
+      ],
+      "sections": [
+        {
+          "title": "The Four Elements",
+          "subtitle": "Fragrant Companions for Your Journey",
+          "intro": [
+            "Our four incense blends bear the names Fire, Water, Earth and Air. These elements symbolise different movements of life: transformation, feeling, rootedness and spaciousness.",
+            "When you burn incense, you might bring a question, speak an intention or simply become still for a moment. The fragrance accompanies you. What this moment means to you is free to unfold in its own personal way."
+          ],
+          "items": [
+            {
+              "label": "Fire",
+              "name": "Phoenix Wings",
+              "subtitle": "Threshold of a New Beginning",
+              "notes": "Frankincense, rosemary, mugwort, bay leaf and a touch of allspice come together in a spicy, resinous fragrance.",
+              "body": [
+                "Phoenix Wings is dedicated to transitions: those times when something ends and something new has yet to find its shape. Perhaps you are saying goodbye to a habit, an expectation or a story you have long told about yourself.",
+                "Fire reminds us that change calls for movement. Sometimes that movement is a decisive step. Sometimes it is a quiet admission: I no longer wish to treat myself this way.",
+                "This blend invites you to honour the path you have travelled and make room for your new beginning."
+              ],
+              "quote": "I honour what has carried me this far.\nI release what no longer walks beside me.\nWith an open heart, I dare to take my next step."
+            },
+            {
+              "label": "Water",
+              "name": "Heart Temple",
+              "subtitle": "Held in the Light",
+              "notes": "Frankincense, lavender, rose petals, cacao and Palo Santo lend this blend their floral, warm and woody notes.",
+              "body": [
+                "Heart Temple is an invitation to meet yourself with kindness. You may ask: What am I feeling? What do I need? Where do I long for greater gentleness?",
+                "Here, water represents permission to let feelings move. Joy, grief and longing may all find space alongside one another. You do not have to turn this moment into anything. Perhaps simply listening to yourself is enough.",
+                "Heart Temple accompanies moments of gratitude, quiet remembrance and conscious care for your own heart."
+              ],
+              "quote": "I offer my heart an open space.\nWhat I feel deserves to be heard.\nLove may begin with me, too."
+            },
+            {
+              "label": "Earth",
+              "name": "Forest Guardian",
+              "subtitle": "Roots of the Earth",
+              "notes": "Frankincense, rosemary, thyme, oregano and a little allspice create a rich, aromatic herbal fragrance.",
+              "body": [
+                "Forest Guardian evokes the simple presence of the Earth: the ground beneath our feet, trees standing in their place, a breath taken here and now.",
+                "This blend is dedicated to arriving fully in the present. It invites you to notice your body and recognise where your responsibility begins and where it ends. Boundaries can be an expression of care. Your space may belong to you.",
+                "Perhaps you place both feet on the ground as you burn the incense and speak an intention for the day. Perhaps you remember that you need time to rest."
+              ],
+              "quote": "I feel the ground beneath me.\nI take my place in life.\nMy boundaries may be clear, and my heart may remain open."
+            },
+            {
+              "label": "Air",
+              "name": "Moon Path",
+              "subtitle": "Whispers of Inner Wisdom",
+              "notes": "Frankincense, lavender, rose, mugwort, bay leaf and Palo Santo come together in a floral, resinous fragrance.",
+              "body": [
+                "Moon Path accompanies the practice of listening inward. It invites you to write down your thoughts, allow a question to remain open for a while and hear your own voice again among the many voices of everyday life.",
+                "Air symbolises spaciousness and fresh perspectives. Sometimes clarity emerges when we give ourselves time. An answer may grow. A next step may be small.",
+                "This blend lends itself to quiet rituals, meditation and a mindful close to the day."
+              ],
+              "quote": "I give my questions room.\nI listen without forcing an answer.\nMy path may reveal itself, step by step."
+            }
+          ]
+        },
+        {
+          "title": "Mariri",
+          "subtitle": "Waters of Transformation",
+          "intro": [
+            "Mariri is our poetic name for Soulwayo’s botanical baths. The recipes are our own blends, created for personal rituals.",
+            "Water can make a transition tangible: from a busy day into stillness, from constant doing into a moment of receiving. A botanical bath invites you to shape this transition consciously.",
+            "By “cleansing,” we mean a symbolic letting go: you may set down expectations for a moment, release a thought or turn towards a new chapter."
+          ],
+          "items": [
+            {
+              "name": "Rose Light",
+              "body": [
+                "Rose Light brings together rose and lavender. It represents self-acceptance and permission to meet yourself with tenderness."
+              ]
+            },
+            {
+              "name": "Forest Spring",
+              "body": [
+                "Forest Spring combines rosemary and rose. It accompanies an intention of clarity and new beginnings."
+              ]
+            },
+            {
+              "name": "Moon Rest",
+              "body": [
+                "Moon Rest unites lavender and rose petals in a simple evening ritual. A space in which the day may gently draw to a close."
+              ]
+            },
+            {
+              "name": "Earth Water",
+              "body": [
+                "Earth Water remains beautifully simple: rose petals and water. An invitation to awaken your senses and settle into your own body."
+              ]
+            }
+          ],
+          "outro": [
+            "The plants are prepared as an infusion and carefully strained. During your bath, you may remain silent, speak a blessing or sing softly."
+          ],
+          "quote": "Water, accompany this transition.\nFor a moment, I set down what I have carried.\nWith a peaceful breath, I return to myself."
+        },
+        {
+          "title": "Herbal Salts",
+          "subtitle": "Seasoning Everyday Life with Gratitude",
+          "intro": [
+            "A meal, too, can become a small ritual. We may recognise how many hands, seasons and journeys have contributed to the food upon our table.",
+            "Our herbal salts bring this awareness together with the simple pleasure of eating well."
+          ],
+          "items": [
+            {
+              "name": "Turmeric Salt",
+              "subtitle": "The Golden Strength of the Earth",
+              "body": [
+                "Turmeric gives this salt its warm colour and earthy, spicy flavour. It adds a delicious touch to rice, vegetables, potatoes and soups.",
+                "Its golden hue symbolically reminds us of the light that lives within small things: a steaming bowl, a thoughtfully laid table, the time we allow ourselves to enjoy a meal."
+              ]
+            },
+            {
+              "name": "Marjoram Salt",
+              "subtitle": "A Fragrant Greeting from Mother Earth",
+              "body": [
+                "Marjoram brings a warm herbal flavour that complements potatoes, stews, vegetables and pulses.",
+                "It evokes garden kitchens and time spent together. The joy of preparing something and sharing it with others."
+              ]
+            },
+            {
+              "name": "Oregano Oil",
+              "subtitle": "The Herb Garden in a Jar",
+              "body": [
+                "Dried oregano releases its aromatic flavour into olive oil. As a culinary infused oil, it complements bread, salads and warm vegetable dishes.",
+                "A few drops can become a gentle reminder: taste mindfully, eat more slowly, receive with gratitude."
+              ]
+            }
+          ],
+          "quote": "Thank you to the Earth that nourishes us.\nThank you to the hands that prepare this food.\nMay our table be a place of joy and sharing."
+        },
+        {
+          "title": "Sacred Cacao",
+          "subtitle": "A Cup of Earth, a Moment of Heart",
+          "intro": [
+            "A cacao ritual begins with attention: to its fragrance, warmth and flavour, and to the question of what intention you wish to bring to this moment.",
+            "For us, “Sacred” describes the spirit in which we approach cacao. We honour its origins, the people who grow and process it, and the community that may emerge through sharing.",
+            "In our rituals, cacao may accompany singing, silence and honest connection. Some people experience a sense of togetherness or openness. Each experience is free to be its own."
+          ],
+          "items": [
+            {
+              "name": "Chuncho",
+              "body": [
+                "Chuncho is a diverse, locally rooted cacao population from the Cusco region of Peru. Its history reminds us of the importance of plant diversity and regional knowledge."
+              ]
+            },
+            {
+              "name": "Criollo",
+              "body": [
+                "Criollo refers to a traditional cacao group often associated with fine-flavour cacao. Here, too, cultivation and processing shape the character of each individual batch."
+              ]
+            }
+          ],
+          "outro": [
+            "Cacao naturally contains, among other compounds, theobromine, caffeine and plant compounds such as flavanols. The amounts vary from product to product. For us, mindful enjoyment centres on flavour, individual tolerance and the quality of the moment we share."
+          ],
+          "quote": "Thank you, Mother Earth, for this gift.\nThank you to every hand along its journey.\nI receive this cup with open senses\nand offer this moment my attention."
+        }
+      ],
+      "closing": {
+        "title": "How Our Products Accompany You",
+        "body": [
+          "You can keep a ritual simple. Choose a fragrance, prepare your bath or your cacao, and ask yourself: What would I like to notice consciously today?",
+          "Perhaps you need stillness. Perhaps you wish to celebrate something. Perhaps you want to express a boundary or welcome a new chapter.",
+          "Our products offer a sensory setting for these moments. Your own experience remains at the centre."
+        ],
+        "care": "Use them according to their individual instructions: burn incense blends sparingly and with good ventilation; prepare botanical baths only with ingredients suitable for your skin; use herbal salts and oregano oil as food products and store them appropriately. Spiritual associations and ritual language describe symbolic meanings, not medical effects.",
+        "final": "Soulwayo grows from our joy in nature, mindful connection and creating these moments together.",
+        "signoff": "With love,",
+        "signature": "Sarah & Johannes",
+        "motto": "Soulwayo – Rooted in eArth guided by heArt."
+      }
     },
     "closing": {
       "stanza": "Return to your body.\nReturn to your heart.\nReturn to yourself.",

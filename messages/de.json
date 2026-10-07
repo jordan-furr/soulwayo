@@ -30,11 +30,11 @@
       "rhythmRetreats": "Retreats",
       "rhythmRetreatsValue": "Einmal pro Jahreszeit",
       "rhythmCeremony": "Kakao-Zeremonie · Gemeinschaftsmeditation",
-      "rhythmCeremonyValue": "Einmal im Monat, bei Neumond",
+      "rhythmCeremonyValue": "Jeden Donnerstag",
       "upcomingDates": "Kommende Termine",
-      "event1Eyebrow": "Gemeinschaftsmeditation",
-      "event1Title": "Soulshine Community Meditation",
-      "event1Details": "4. Oktober 2026 · Im Wald bei Zürich, Schweiz · 19:00 – 21:00 Uhr",
+      "event1Eyebrow": "Jeden Donnerstag",
+      "event1Title": "Soulwayo Sacred Cacao",
+      "event1Details": "Volketswil, Schweiz · 8:30 – 12:00 Uhr",
       "event2Eyebrow": "Winter-Retreat",
       "event2Title": "Return to Soul",
       "event2Details": "3.–6. Dezember 2026 · Schwarzenberg, Österreich",
@@ -353,14 +353,14 @@
       "eyebrow": "Kakao-Zeremonie · Gemeinschaftsmeditation",
       "headline": "Eine heilige Reise für Körper, Geist, Herz & Seele",
       "body": "Eine Kakao-Zeremonie ist ein bewusst gehaltener Ritualraum – eine Einladung, aus dem Tempo und dem Lärm des Alltags herauszutreten und in eine tiefere Beziehung mit dir selbst einzutreten.",
-      "note": "Oft auch unsere Gemeinschaftsmeditation genannt – einmal im Monat, bei Neumond."
+      "note": "Du findest uns jeden Donnerstag von 8:30 bis 12:00 Uhr in Volketswil."
     },
     "nextCeremony": {
-      "eyebrow": "Nächste Gemeinschaftsmeditation",
-      "title": "Soulshine Community Meditation",
-      "date": "4. Oktober 2026 · 19:00 – 21:00 Uhr",
-      "location": "Im Wald bei Zürich, Schweiz",
-      "tagline": "Verbinden · Atmen · Fühlen · Erinnern – gemeinsam.",
+      "eyebrow": "Jeden Donnerstag",
+      "title": "Soulwayo Sacred Cacao",
+      "date": "Jeden Donnerstag · 8:30 – 12:00 Uhr",
+      "location": "Volketswil, Schweiz",
+      "tagline": "Sacred Cacao aus Peru – als Getränk & kiloweise.",
       "cta": "Sichere dir deinen Platz"
     },
     "invitation": {
@@ -391,6 +391,191 @@
       "callout": "Wenn du schwanger bist oder stillst, eine Herz-Kreislauf-Erkrankung oder eine andere ernsthafte Erkrankung hast, regelmässig Medikamente einnimmst, besonders empfindlich auf anregende Stoffe reagierst oder unsicher bist, ob zeremonieller Kakao für dich geeignet ist, sprich bitte vorher mit einer entsprechenden Fachperson und gib uns vor der Teilnahme Bescheid.",
       "p3": "Unsere Zeremonien sollen Selbsterkundung, Verkörperung, Verbindung und persönliche Reflexion unterstützen. Sie sind kein Ersatz für medizinische Behandlung, Psychotherapie, psychiatrische Versorgung oder andere professionelle Gesundheitsversorgung.",
       "p4": "Dein Wohlbefinden und deine Grenzen stehen immer an erster Stelle."
+    },
+    "gifts": {
+      "eyebrow": "Soulwayo",
+      "title": "Gaben der Erde, Rituale des Herzens",
+      "subtitle": "Verwurzelt in der Erde. Geführt vom Herzen.",
+      "intro": [
+        "Manchmal beginnt die Reise zurück zu uns selbst mit etwas Einfachem: einem Duft, der uns innehalten lässt. Einer warmen Tasse zwischen unseren Händen. Wasser auf unserer Haut. Einer Mahlzeit, die wir uns Zeit nehmen, wirklich zu schmecken.",
+        "Die schamanisch inspirierten Produkte von Soulwayo laden dich ein, diesen Momenten wieder Bedeutung zu schenken. Sie verbinden Pflanzen, Sinnesfreude und persönliche Rituale – verwoben mit unserer Liebe zur Erde.",
+        "Für uns lebt das Heilige auch im Alltag. Wir begegnen ihm beim Kochen, Zuhören, Singen und in der stillen Entscheidung, uns selbst mit Freundlichkeit zu begegnen. Ein Ritual kann zu einer kleinen Schwelle werden: Du hältst inne, spürst, was da ist, und entscheidest bewusst, wie du weitergehen möchtest.",
+        "Dieses Verständnis inspiriert unsere Räuchermischungen, Kräuterbäder, Kräutersalze und Kakao-Rituale. Ihre spirituellen Bedeutungen sind Einladungen, die du mit deinen eigenen Erfahrungen füllen darfst."
+      ],
+      "sections": [
+        {
+          "title": "Die vier Elemente",
+          "subtitle": "Duftende Begleiter für deinen Weg",
+          "intro": [
+            "Unsere vier Räuchermischungen tragen die Namen Feuer, Wasser, Erde und Luft. Diese Elemente symbolisieren verschiedene Bewegungen des Lebens: Wandlung, Gefühl, Verwurzelung und Weite.",
+            "Wenn du räucherst, kannst du eine Frage mitbringen, eine Intention aussprechen oder einfach für einen Moment still werden. Der Duft begleitet dich. Was dieser Moment für dich bedeutet, darf sich auf ganz persönliche Weise entfalten."
+          ],
+          "items": [
+            {
+              "label": "Feuer",
+              "name": "Phoenix Wings",
+              "subtitle": "Schwelle eines Neubeginns",
+              "notes": "Weihrauch, Rosmarin, Beifuss, Lorbeer und ein Hauch Piment verbinden sich zu einem würzigen, harzigen Duft.",
+              "body": [
+                "Phoenix Wings ist Übergängen gewidmet: jenen Zeiten, in denen etwas endet und etwas Neues seine Form noch nicht gefunden hat. Vielleicht verabschiedest du dich von einer Gewohnheit, einer Erwartung oder einer Geschichte, die du lange über dich selbst erzählt hast.",
+                "Feuer erinnert uns daran, dass Veränderung Bewegung braucht. Manchmal ist diese Bewegung ein entschlossener Schritt. Manchmal ist sie ein leises Eingeständnis: So möchte ich nicht mehr mit mir umgehen.",
+                "Diese Mischung lädt dich ein, den Weg zu ehren, den du gegangen bist, und Raum für deinen Neubeginn zu schaffen."
+              ],
+              "quote": "Ich ehre, was mich bis hierher getragen hat.\nIch lasse los, was nicht länger mit mir geht.\nMit offenem Herzen wage ich meinen nächsten Schritt."
+            },
+            {
+              "label": "Wasser",
+              "name": "Heart Temple",
+              "subtitle": "Gehalten im Licht",
+              "notes": "Weihrauch, Lavendel, Rosenblüten, Kakao und Palo Santo schenken dieser Mischung ihre blumigen, warmen und holzigen Noten.",
+              "body": [
+                "Heart Temple ist eine Einladung, dir selbst mit Freundlichkeit zu begegnen. Du darfst fragen: Was fühle ich? Was brauche ich? Wo sehne ich mich nach mehr Sanftheit?",
+                "Wasser steht hier für die Erlaubnis, Gefühle in Bewegung kommen zu lassen. Freude, Trauer und Sehnsucht dürfen nebeneinander Raum finden. Du musst aus diesem Moment nichts machen. Vielleicht genügt es, dir einfach zuzuhören.",
+                "Heart Temple begleitet Momente der Dankbarkeit, des stillen Erinnerns und der bewussten Fürsorge für dein eigenes Herz."
+              ],
+              "quote": "Ich schenke meinem Herzen einen offenen Raum.\nWas ich fühle, verdient es, gehört zu werden.\nLiebe darf auch bei mir beginnen."
+            },
+            {
+              "label": "Erde",
+              "name": "Forest Guardian",
+              "subtitle": "Wurzeln der Erde",
+              "notes": "Weihrauch, Rosmarin, Thymian, Oregano und etwas Piment ergeben einen vollen, aromatischen Kräuterduft.",
+              "body": [
+                "Forest Guardian ruft die einfache Gegenwart der Erde wach: den Boden unter unseren Füssen, Bäume, die an ihrem Platz stehen, einen Atemzug im Hier und Jetzt.",
+                "Diese Mischung ist dem vollen Ankommen in der Gegenwart gewidmet. Sie lädt dich ein, deinen Körper wahrzunehmen und zu erkennen, wo deine Verantwortung beginnt und wo sie endet. Grenzen können ein Ausdruck von Fürsorge sein. Dein Raum darf dir gehören.",
+                "Vielleicht stellst du beim Räuchern beide Füsse auf den Boden und sprichst eine Intention für den Tag aus. Vielleicht erinnerst du dich daran, dass du Zeit zum Ruhen brauchst."
+              ],
+              "quote": "Ich spüre den Boden unter mir.\nIch nehme meinen Platz im Leben ein.\nMeine Grenzen dürfen klar sein, und mein Herz darf offen bleiben."
+            },
+            {
+              "label": "Luft",
+              "name": "Moon Path",
+              "subtitle": "Flüstern der inneren Weisheit",
+              "notes": "Weihrauch, Lavendel, Rose, Beifuss, Lorbeer und Palo Santo verbinden sich zu einem blumigen, harzigen Duft.",
+              "body": [
+                "Moon Path begleitet die Praxis, nach innen zu lauschen. Er lädt dich ein, deine Gedanken aufzuschreiben, eine Frage eine Weile offen zu lassen und deine eigene Stimme inmitten der vielen Stimmen des Alltags wieder zu hören.",
+                "Luft symbolisiert Weite und neue Perspektiven. Manchmal entsteht Klarheit, wenn wir uns Zeit lassen. Eine Antwort darf wachsen. Ein nächster Schritt darf klein sein.",
+                "Diese Mischung eignet sich für stille Rituale, Meditation und einen achtsamen Tagesausklang."
+              ],
+              "quote": "Ich gebe meinen Fragen Raum.\nIch höre zu, ohne eine Antwort zu erzwingen.\nMein Weg darf sich Schritt für Schritt zeigen."
+            }
+          ]
+        },
+        {
+          "title": "Mariri",
+          "subtitle": "Wasser der Wandlung",
+          "intro": [
+            "Mariri ist unser poetischer Name für die Kräuterbäder von Soulwayo. Die Rezepte sind unsere eigenen Mischungen, kreiert für persönliche Rituale.",
+            "Wasser kann einen Übergang spürbar machen: von einem vollen Tag in die Stille, vom ständigen Tun in einen Moment des Empfangens. Ein Kräuterbad lädt dich ein, diesen Übergang bewusst zu gestalten.",
+            "Mit «Reinigung» meinen wir ein symbolisches Loslassen: Du darfst Erwartungen für einen Moment ablegen, einen Gedanken loslassen oder dich einem neuen Kapitel zuwenden."
+          ],
+          "items": [
+            {
+              "name": "Rose Light",
+              "body": [
+                "Rose Light verbindet Rose und Lavendel. Es steht für Selbstannahme und die Erlaubnis, dir selbst mit Zärtlichkeit zu begegnen."
+              ]
+            },
+            {
+              "name": "Forest Spring",
+              "body": [
+                "Forest Spring vereint Rosmarin und Rose. Es begleitet eine Intention von Klarheit und Neubeginn."
+              ]
+            },
+            {
+              "name": "Moon Rest",
+              "body": [
+                "Moon Rest verbindet Lavendel und Rosenblüten zu einem einfachen Abendritual. Ein Raum, in dem der Tag sanft ausklingen darf."
+              ]
+            },
+            {
+              "name": "Earth Water",
+              "body": [
+                "Earth Water bleibt wunderbar einfach: Rosenblüten und Wasser. Eine Einladung, deine Sinne zu wecken und in deinem eigenen Körper anzukommen."
+              ]
+            }
+          ],
+          "outro": [
+            "Die Pflanzen werden als Aufguss zubereitet und sorgfältig abgesiebt. Während deines Bades darfst du schweigen, einen Segen sprechen oder leise singen."
+          ],
+          "quote": "Wasser, begleite diesen Übergang.\nFür einen Moment lege ich ab, was ich getragen habe.\nMit einem friedlichen Atemzug kehre ich zu mir zurück."
+        },
+        {
+          "title": "Kräutersalze",
+          "subtitle": "Den Alltag mit Dankbarkeit würzen",
+          "intro": [
+            "Auch eine Mahlzeit kann zu einem kleinen Ritual werden. Wir dürfen erkennen, wie viele Hände, Jahreszeiten und Wege zu dem Essen auf unserem Tisch beigetragen haben.",
+            "Unsere Kräutersalze verbinden dieses Bewusstsein mit der einfachen Freude am guten Essen."
+          ],
+          "items": [
+            {
+              "name": "Kurkuma-Salz",
+              "subtitle": "Die goldene Kraft der Erde",
+              "body": [
+                "Kurkuma schenkt diesem Salz seine warme Farbe und seinen erdigen, würzigen Geschmack. Es verleiht Reis, Gemüse, Kartoffeln und Suppen eine köstliche Note.",
+                "Sein goldener Farbton erinnert uns symbolisch an das Licht, das in kleinen Dingen lebt: eine dampfende Schale, ein liebevoll gedeckter Tisch, die Zeit, die wir uns gönnen, um eine Mahlzeit zu geniessen."
+              ]
+            },
+            {
+              "name": "Majoran-Salz",
+              "subtitle": "Ein duftender Gruss von Mutter Erde",
+              "body": [
+                "Majoran bringt einen warmen Kräutergeschmack, der Kartoffeln, Eintöpfe, Gemüse und Hülsenfrüchte ergänzt.",
+                "Er erinnert an Gartenküchen und gemeinsame Zeit. An die Freude, etwas zuzubereiten und mit anderen zu teilen."
+              ]
+            },
+            {
+              "name": "Oregano-Öl",
+              "subtitle": "Der Kräutergarten im Glas",
+              "body": [
+                "Getrockneter Oregano gibt sein aromatisches Aroma an Olivenöl ab. Als kulinarisches Kräuteröl ergänzt es Brot, Salate und warme Gemüsegerichte.",
+                "Ein paar Tropfen können zu einer sanften Erinnerung werden: achtsam schmecken, langsamer essen, mit Dankbarkeit empfangen."
+              ]
+            }
+          ],
+          "quote": "Danke an die Erde, die uns nährt.\nDanke an die Hände, die dieses Essen zubereiten.\nMöge unser Tisch ein Ort der Freude und des Teilens sein."
+        },
+        {
+          "title": "Sacred Cacao",
+          "subtitle": "Eine Tasse Erde, ein Moment Herz",
+          "intro": [
+            "Ein Kakao-Ritual beginnt mit Aufmerksamkeit: für seinen Duft, seine Wärme und seinen Geschmack – und für die Frage, welche Intention du in diesen Moment mitbringen möchtest.",
+            "«Sacred» beschreibt für uns die Haltung, mit der wir dem Kakao begegnen. Wir ehren seine Herkunft, die Menschen, die ihn anbauen und verarbeiten, und die Gemeinschaft, die durch das Teilen entstehen kann.",
+            "In unseren Ritualen darf Kakao Gesang, Stille und ehrliche Verbindung begleiten. Manche Menschen erleben ein Gefühl von Verbundenheit oder Offenheit. Jede Erfahrung darf ihre eigene sein."
+          ],
+          "items": [
+            {
+              "name": "Chuncho",
+              "body": [
+                "Chuncho ist eine vielfältige, lokal verwurzelte Kakaopopulation aus der Region Cusco in Peru. Seine Geschichte erinnert uns an die Bedeutung von Pflanzenvielfalt und regionalem Wissen."
+              ]
+            },
+            {
+              "name": "Criollo",
+              "body": [
+                "Criollo bezeichnet eine traditionelle Kakaogruppe, die oft mit Edelkakao in Verbindung gebracht wird. Auch hier prägen Anbau und Verarbeitung den Charakter jeder einzelnen Charge."
+              ]
+            }
+          ],
+          "outro": [
+            "Kakao enthält von Natur aus unter anderem Theobromin, Koffein und Pflanzenstoffe wie Flavanole. Die Mengen variieren von Produkt zu Produkt. Achtsamer Genuss bedeutet für uns: Geschmack, individuelle Verträglichkeit und die Qualität des Moments, den wir teilen."
+          ],
+          "quote": "Danke, Mutter Erde, für dieses Geschenk.\nDanke an jede Hand auf seinem Weg.\nIch empfange diese Tasse mit offenen Sinnen\nund schenke diesem Moment meine Aufmerksamkeit."
+        }
+      ],
+      "closing": {
+        "title": "Wie unsere Produkte dich begleiten",
+        "body": [
+          "Du kannst ein Ritual ganz einfach halten. Wähle einen Duft, bereite dein Bad oder deinen Kakao zu und frag dich: Was möchte ich heute bewusst wahrnehmen?",
+          "Vielleicht brauchst du Stille. Vielleicht möchtest du etwas feiern. Vielleicht möchtest du eine Grenze ausdrücken oder ein neues Kapitel willkommen heissen.",
+          "Unsere Produkte bieten einen sinnlichen Rahmen für diese Momente. Deine eigene Erfahrung bleibt im Mittelpunkt."
+        ],
+        "care": "Bitte verwende sie gemäss ihren jeweiligen Anleitungen: Räuchermischungen sparsam und bei guter Belüftung räuchern; Kräuterbäder nur mit Zutaten zubereiten, die für deine Haut geeignet sind; Kräutersalze und Oregano-Öl als Lebensmittel verwenden und entsprechend lagern. Spirituelle Zuschreibungen und rituelle Sprache beschreiben symbolische Bedeutungen, keine medizinischen Wirkungen.",
+        "final": "Soulwayo wächst aus unserer Freude an der Natur, an achtsamer Verbindung und daran, diese Momente gemeinsam zu gestalten.",
+        "signoff": "In Liebe,",
+        "signature": "Sarah & Johannes",
+        "motto": "Soulwayo – Rooted in eArth guided by heArt."
+      }
     },
     "closing": {
       "stanza": "Kehre zurück zu deinem Körper.\nKehre zurück zu deinem Herzen.\nKehre zurück zu dir selbst.",

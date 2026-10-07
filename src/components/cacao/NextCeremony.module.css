@@ -21,7 +21,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
   gap: clamp(40px, 6vw, 90px);
   align-items: center;
 }
@@ -33,7 +33,7 @@
 .flyer {
   display: block;
   width: 100%;
-  max-width: 360px;
+  max-width: 620px;
   height: auto;
   border-radius: 3px;
   box-shadow: 0 36px 70px -28px rgba(0, 0, 0, 0.5);
@@ -97,5 +97,9 @@
 @media (max-width: 900px) {
   .section {
     padding-top: 60px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
   }
 }

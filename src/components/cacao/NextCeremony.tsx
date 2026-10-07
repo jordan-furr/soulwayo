@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import Reveal from "@/components/Reveal";
 import styles from "./NextCeremony.module.css";
-import flyerImg from "../../../public/images/flyer-october-meditation.jpeg";
+import flyerImg from "../../../public/images/flyer-sacred-cacao-volketswil.jpg";
 
 export default function NextCeremony() {
   const t = useTranslations("cacao.nextCeremony");
@@ -16,9 +16,9 @@ export default function NextCeremony() {
           <Reveal className={styles.flyerWrap}>
             <Image
               src={flyerImg}
-              alt="Soulshine Community Meditation flyer"
+              alt="Soulwayo Sacred Cacao – every Thursday, 8:30–12:00, Volketswil"
               className={styles.flyer}
-              sizes="(max-width: 900px) 90vw, 360px"
+              sizes="(max-width: 900px) 90vw, 620px"
             />
           </Reveal>
           <Reveal>

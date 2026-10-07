@@ -60,7 +60,10 @@
 
 .imageWrap {
   position: relative;
-  aspect-ratio: 4 / 5;
+  justify-self: center;
+  width: 100%;
+  max-width: 440px;
+  aspect-ratio: 948 / 1600;
   box-shadow: 0 40px 90px -40px rgba(0, 0, 0, 0.7);
 }
 
@@ -74,7 +77,7 @@
   }
 
   .imageWrap {
+    justify-self: start;
     max-width: 400px;
-    width: 100%;
   }
 }
