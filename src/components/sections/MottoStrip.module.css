@@ -1,0 +1,38 @@
+.section {
+  background: var(--cream);
+  padding: clamp(34px, 5vh, 52px) 6vw;
+}
+
+.motto {
+  margin: 0 auto;
+  max-width: 1180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(16px, 2.4vw, 28px);
+  font-family: var(--font-cormorant);
+  font-weight: 400;
+  font-style: italic;
+  font-size: clamp(22px, 2.8vw, 34px);
+  line-height: 1.25;
+  text-align: center;
+  color: var(--forest-deep);
+}
+
+.motto::before,
+.motto::after {
+  content: "";
+  flex: 0 0 clamp(28px, 6vw, 72px);
+  height: 1px;
+  background: var(--gold);
+}
+
+@media (max-width: 420px) {
+  .motto {
+    font-size: 20px;
+  }
+  .motto::before,
+  .motto::after {
+    flex-basis: 18px;
+  }
+}

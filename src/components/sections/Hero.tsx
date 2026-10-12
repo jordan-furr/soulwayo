@@ -23,10 +23,7 @@ export default function Hero() {
       <div className={`${styles.scrim} ${styles.scrimMobile}`} />
 
       <div className={styles.inner}>
-        <Reveal as="p" className={styles.motto}>
-          {t("motto")}
-        </Reveal>
-        <Reveal as="h1" delay={0.08} className={styles.title}>
+        <Reveal as="h1" className={styles.title}>
           Soulwayo
         </Reveal>
         <Reveal as="p" delay={0.16} className={styles.tagline}>

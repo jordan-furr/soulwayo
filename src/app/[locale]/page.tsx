@@ -2,6 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Hero from "@/components/sections/Hero";
+import MottoStrip from "@/components/sections/MottoStrip";
 import RetreatsFeature from "@/components/sections/RetreatsFeature";
 import MarketStrip from "@/components/sections/MarketStrip";
 import SpaceSection from "@/components/sections/SpaceSection";
@@ -22,6 +23,7 @@ export default async function Home({
       <Nav />
       <main>
         <Hero />
+        <MottoStrip />
         <RetreatsFeature />
         <SpaceSection />
         <MarketStrip />
