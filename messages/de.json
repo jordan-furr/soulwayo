@@ -7,7 +7,8 @@
     "retreats": "Retreats",
     "cacao": "Kakao",
     "cacaoMeditation": "Kakao-Meditation",
-    "cacaoMarket": "Kakao kaufen",
+    "cacaoMarket": "Kakao-Markt",
+    "shop": "Shop",
     "about": "Über uns",
     "contact": "Kontakt",
     "home": "Start",
@@ -64,11 +65,22 @@
       "path3Dest2": "→ Zeremonie, Feuer & Kakao"
     },
     "marketStrip": {
-      "eyebrow": "Sacred-Cacao-Markt",
-      "title": "Jeden Donnerstag am Markt in Volketswil",
-      "body": "Sacred Cacao aus Peru – als warmes Getränk oder kiloweise – dazu unsere Räuchermischungen, Kräuterbäder und Kräutersalze. Komm auf eine warme Tasse vorbei.",
-      "details": "Jeden Donnerstag · 8:30 – 12:00 Uhr · Volketswil",
-      "cta": "Mehr über unseren Kakao"
+      "eyebrow": "Unser Markt & Shop",
+      "title": "Unser Donnerstagsmarkt ist in der Winterpause",
+      "body": "Unser Marktstand in Volketswil macht Winterpause und ist ab Frühling wieder da. Bis dahin findest Du alles von unserem Markttisch – vom Sacred Cacao bis zu Räuchermischungen, Pflanzenbädern und Kräutersalzen – in unserem Shop.",
+      "details": "Winterpause · Ab Frühling wieder da",
+      "cta": "Zum Shop",
+      "imageAlt": "Der Soulwayo-Marktstand mit Kakao, Räucherwerk und Kräutersalzen"
+    },
+    "nightsStrip": {
+      "eyebrow": "Neu · Digitaler Wegbegleiter (PDF)",
+      "title": "Die Magie der 12 Rauhnächte",
+      "subtitle": "Eine Reise von deiner Seele zu deinem Herzen.",
+      "body": "Zwölf heilige Nächte voller Rituale, schamanischer Weisheit, Poesie und tiefer Selbstreflexion. Eine Einladung, Altes loszulassen und dich an dein wahres Wesen zu erinnern.",
+      "price": "Ab CHF 33.– · per E-Mail an Dich",
+      "cta": "PDF bestellen",
+      "more": "Alle Optionen ansehen",
+      "imageAlt": "Die Magie der 12 Rauhnächte"
     },
     "ourWork": {
       "eyebrow": "Unsere Arbeit",
@@ -410,16 +422,110 @@
     "hero": {
       "eyebrow": "Sacred-Cacao-Markt",
       "headline": "Sacred Cacao aus Peru",
-      "body": "Jeden Donnerstagmorgen bringen wir unseren Kakao, unsere Räuchermischungen, Kräuterbäder und Kräutersalze auf den Markt in Volketswil. Komm auf eine warme Tasse vorbei oder nimm Kakao kiloweise mit nach Hause.",
-      "note": "Jeden Donnerstag · 8:30 – 12:00 Uhr · Volketswil"
+      "body": "Unser Donnerstagsmarkt in Volketswil ist in der Winterpause und ab Frühling wieder da. Bis dahin kannst Du unseren Kakao, unsere Räuchermischungen, Kräuterbäder und Kräutersalze direkt bei uns bestellen.",
+      "note": "Winterpause · Ab Frühling wieder da"
     },
     "visit": {
-      "eyebrow": "Besuche uns am Markt",
+      "eyebrow": "Ab Frühling wieder am Markt",
       "title": "Soulwayo Sacred Cacao",
-      "date": "Jeden Donnerstag · 8:30 – 12:00 Uhr",
+      "date": "Donnerstags · 8:30 – 12:00 Uhr · ab Frühling",
       "location": "Volketswil, Schweiz",
       "tagline": "Sacred Cacao aus Peru – als Getränk & kiloweise.",
       "cta": "Kontakt aufnehmen"
+    },
+    "menu": {
+      "notice": {
+        "eyebrow": "Winterpause",
+        "title": "Kein Markt vor Ort bis zum Frühling",
+        "body": "Unser Donnerstagsmarkt auf dem Gemeindeplatz Volketswil ist in der Winterpause – vor dem Frühling findest Du uns dort nicht. Du kannst trotzdem direkt bei uns bestellen: über den Shop oder per Anruf, und wir stimmen Deine Bestellung mit Dir ab.",
+        "shop": "Alles im Shop ansehen"
+      },
+      "eyebrow": "Sacred Earth Collection",
+      "title": "Biologisch gewachsen. Mit Liebe geschaffen.",
+      "subtitle": "Aus eigenem Anbau und von kleinen Bauernfamilien – mit Respekt für Erde, Pflanze und Mensch.",
+      "imageAlt": "Soulwayo Sacred Earth Collection – Produkte und Preise",
+      "items": [
+        {
+          "name": "Sacred Cacao",
+          "subtitle": "Kakao des Herzens",
+          "prices": [
+            "Chuncho: 100 g CHF 9.– · 1 kg CHF 90.–",
+            "Criollo: 100 g CHF 8.– · 1 kg CHF 80.–"
+          ],
+          "body": "Naturbelassener Kakao aus Peru. Für bewusste Genussmomente, Dankbarkeit und herzliche Rituale.",
+          "variants": [
+            {
+              "name": "Chuncho",
+              "price": "100 g · CHF 9.–  ·  1 kg · CHF 90.–"
+            },
+            {
+              "name": "Criollo",
+              "price": "100 g · CHF 8.–  ·  1 kg · CHF 80.–"
+            }
+          ]
+        },
+        {
+          "name": "Schamanische Räucherungen",
+          "prices": [
+            "Gross 30 g · CHF 33.–",
+            "Klein 15 g · CHF 17.–"
+          ],
+          "body": "Von Hand zusammengestellte Pflanzen und Harze. Ein duftendes Ritual für Klarheit, Loslassen und Neubeginn."
+        },
+        {
+          "name": "Deine individuelle Soulwayo-Räucherung",
+          "prices": [
+            "Preis auf Anfrage"
+          ],
+          "body": "Soulwayo bedeutet «Seelenweg». Auf Wunsch stelle ich eine persönliche Mischung zusammen, inspiriert von Deiner Intention und symbolisch von Deinem Geburtsdatum."
+        },
+        {
+          "name": "Marirri",
+          "subtitle": "Pflanzenreinigungsbad",
+          "prices": [
+            "CHF 21.–"
+          ],
+          "body": "Inspiriert von Pflanzenbädern, die seit Generationen in unterschiedlichen Kulturen für Reinigungsrituale verwendet werden. Ein Moment für Erneuerung und Selbstfürsorge."
+        },
+        {
+          "name": "Handgemachte Kräutersalze aus Steinsalz",
+          "prices": [
+            "Je CHF 17.–"
+          ],
+          "body": "Lorbeerblätter-, Rosen-, Kurkuma-, Majoran- und Oreganosalz. Von Hand gemischt, aus Steinsalz ohne Fluoridzusatz."
+        },
+        {
+          "name": "Lorbeerblätter",
+          "prices": [
+            "40 g · CHF 10.–"
+          ],
+          "body": "Aromatisch für Küche und Pflanzenrituale – traditionell ein Symbol für Klarheit."
+        },
+        {
+          "name": "Hanftee",
+          "prices": [
+            "15 g · CHF 6.–"
+          ],
+          "body": "Ein bewusstes Teeritual für einen ruhigen Moment im Alltag."
+        },
+        {
+          "name": "Mischung zur Verfeinerung des Kakaos",
+          "prices": [
+            "15 g · CHF 9.–",
+            "30 g · CHF 17.–",
+            "50 g · CHF 25.–"
+          ],
+          "body": "Eine liebevolle Mischung verschiedener aromatischer Gewürze für Deinen persönlichen Kakaogenuss.",
+          "quote": "Ein Hauch der Erde, eine Prise Feuer und ein Moment für Dein Herz."
+        },
+        {
+          "name": "Oreganoöl",
+          "prices": [
+            "Preis und Flaschengrösse auf Anfrage"
+          ],
+          "body": "Aromatisches Pflanzenöl – Zusammensetzung und Verwendung auf Anfrage."
+        }
+      ]
     },
     "gifts": {
       "eyebrow": "Soulwayo",
@@ -613,6 +719,167 @@
       "details": "Einmal im Monat, zum Neumond · 19:00 – 21:00 Uhr",
       "cta": "Sichere dir deinen Platz",
       "secondary": "Mehr zur Meditation →"
+    }
+  },
+  "shop": {
+    "hero": {
+      "eyebrow": "Soulwayo Shop",
+      "headline": "Geschenke der Erde",
+      "body": "Kakao, Räucherwerk, Pflanzenbäder, Salze und Rituale. Unser Markt in Volketswil ist in der Winterpause – bestelle direkt hier bei uns.",
+      "orderTitle": "Bestellung per Nachricht",
+      "orderBody": "Bitte kontaktiere uns, um eine Bestellung aufzugeben.",
+      "photoAlt": [
+        "Der Soulwayo-Marktstand",
+        "Gläser, Kräutersalze und Ohrringe am Markttisch",
+        "Kakao und Bücher am Soulwayo-Stand",
+        "Seelenbilder-Karten und Sprays am Markt"
+      ],
+      "order": "Bestellung aufgeben"
+    },
+    "nav": {
+      "nights": "12 Rauhnächte",
+      "salt": "Holy Salt",
+      "collection": "Sacred Earth Collection",
+      "ritual": "Salzritual"
+    },
+    "nights": {
+      "eyebrow": "Digitaler Wegbegleiter · PDF",
+      "title": "Die Magie der 12 Rauhnächte",
+      "subtitle": "Eine Reise von deiner Seele zu deinem Herzen.",
+      "body": [
+        "Mit Liebe und Hingabe habe ich für dich einen besonderen Wegbegleiter erschaffen.",
+        "Zwölf heilige Nächte voller Rituale, schamanischer Weisheit, Poesie und tiefer Selbstreflexion.",
+        "Eine Einladung, dem Flüstern deiner Seele zu lauschen, Altes loszulassen und dich an dein wahres Wesen zu erinnern."
+      ],
+      "optionsTitle": "Wähle deine Seelenreise",
+      "options": [
+        {
+          "name": "Rauhnächte-PDF · Einführung",
+          "note": "Einführungspreis für meine Community",
+          "price": "CHF 33.–"
+        },
+        {
+          "name": "Rauhnächte-PDF · Regulär",
+          "note": "Vollständiges PDF",
+          "price": "CHF 44.–"
+        },
+        {
+          "name": "Premium · Meditationen & Rituale",
+          "note": "Mit zusätzlichen Inhalten",
+          "price": "CHF 66.–"
+        },
+        {
+          "name": "Persönlich begleitete Rauhnächte",
+          "note": "Mit meinen persönlichen Impulsen",
+          "price": "CHF 111.–"
+        }
+      ],
+      "quote": "Die grösste Magie liegt nicht im Aussen.\nSie beginnt in dem Moment, in dem du dich selbst wiederfindest.",
+      "signoff": "Von Herzen, Sarah ♡",
+      "delivery": "Du erhältst das PDF per E-Mail.",
+      "cta": "PDF bestellen",
+      "imageAlt": "Die Magie der 12 Rauhnächte – Preisliste"
+    },
+    "salt": {
+      "eyebrow": "Nur für kurze Zeit in unserem Angebot",
+      "title": "Holy Salt",
+      "subtitle": "Halit-Kristallsalz · Sacred Earth · Das weisse Gold der Erde",
+      "intro": "Unser Holy Salt – reines Halit-Kristallsalz – ist ein urzeitlicher Schatz, entstanden aus den ursprünglichen Meeren der Erde. Es trägt die Klarheit der Elemente, reinigt, schützt und bringt Harmonie in Körper, Raum und Seele.",
+      "products": [
+        {
+          "name": "Holy Salt – Kristall",
+          "prices": [
+            "100 g · CHF 9.–",
+            "500 g · CHF 19.–",
+            "1 kg · CHF 29.–",
+            "Grosse Blöcke für Haus & Raum · ab CHF 49.–"
+          ],
+          "body": "Zum Baden und Reinigen, als ursprüngliches Mineralsalz für eine bewusste Küche, und als grosse Halit-Blöcke (Rohsteine) für ein reinigendes, schützendes Feld und ein klares, friedvolles Zuhause. Ausserdem für Salzrituale, Räucherarbeit, die energetische Reinigung von Gegenständen und bewusste Körperpflege.",
+          "imageAlt": "Holy Salt Kristallsalz in 100 g, 500 g und 1 kg sowie grosse Blöcke"
+        },
+        {
+          "name": "Holy Salt – Fein",
+          "prices": [
+            "CHF 15.– / kg"
+          ],
+          "body": "Naturbelassenes, feines Kristallsalz aus uralten Meeren, reich an Mineralien. Zum Baden und Reinigen, zum natürlichen Würzen und für eine klare, harmonische Atmosphäre.",
+          "imageAlt": "Holy Salt feines Halit-Kristallsalz im Glas"
+        }
+      ],
+      "motto": "Reinigung · Schutz · Klarheit · Erdung",
+      "cta": "Holy Salt bestellen"
+    },
+    "collection": {
+      "cta": "Aus der Kollektion bestellen"
+    },
+    "ritual": {
+      "eyebrow": "Ein Ritual für Zuhause",
+      "title": "Das schamanische Salzritual",
+      "subtitle": "Rückkehr zu dir selbst",
+      "steps": [
+        {
+          "title": "Bereite dein heiliges Wasser vor",
+          "body": "Fülle die Badewanne mit angenehm warmem Wasser und gib etwa 100–200 g Salz hinzu. Bei empfindlicher Haut zunächst weniger verwenden."
+        },
+        {
+          "title": "Kehre in deinen Körper zurück",
+          "body": "Bleibe etwa 10–15 Minuten im Wasser. Atme langsam und spüre bewusst deine Füsse, deinen Bauch und dein Herz. Lass deine Gedanken vorbeiziehen, ohne sie festhalten zu müssen."
+        },
+        {
+          "title": "Sprich deine Intention",
+          "body": "Ich lasse los, was ich nicht länger tragen möchte. Ich ehre meine Vergangenheit, doch ich gehöre ihr nicht. Mein Körper ist mein Zuhause. Meine Grenzen sind heilig. Ich kehre zurück zu mir, in Liebe, Klarheit und Frieden."
+        }
+      ],
+      "after": "Nach dem Bad trockne dich sanft ab, trinke etwas Wasser und schenke dir einige Minuten Ruhe. Bei offenen Wunden, gereizter Haut oder Kreislaufproblemen ist Vorsicht geboten.",
+      "disclaimer": "Ein Salzbad kann körperlich entspannend wirken, und das Ritual selbst kann helfen, Stress abzubauen und sich wieder auf den eigenen Körper zu konzentrieren. Es gibt allerdings keinen wissenschaftlichen Nachweis, dass Salzbäder negative Energien, Geister, Besetzungen oder emotionale Traumata aus dem Körper entfernen.",
+      "quote": "Du musst nicht gegen die Dunkelheit kämpfen, um dein Licht wiederzufinden.\nManchmal beginnt Heilung damit, dass du dich selbst wieder liebevoll wahrnimmst.",
+      "imageAlt": "Besetzungen, energetische Reinigung und die heilsame Kraft des Salzbades",
+      "imageCaption": "Den ganzen Text öffnen"
+    },
+    "strip": {
+      "eyebrow": "Bestellung & Beratung",
+      "title": "Kontakt für Bestellung oder Beratung",
+      "body": "Unsicher, welches Salz, welche Räucherung oder Mischung zu Dir passt? Melde Dich – wir beraten Dich gerne und stimmen Deine Bestellung mit Dir ab."
+    },
+    "order": {
+      "eyebrow": "Bestellung aufgeben",
+      "headline": "Was möchtest Du bestellen?",
+      "body": "Tippe auf die Produkte, die Du möchtest, und ergänze Deine Angaben. Wir melden uns persönlich, um Deine Bestellung mit Dir abzustimmen.",
+      "groups": {
+        "nights": "12 Rauhnächte · PDF",
+        "salt": "Holy Salt",
+        "collection": "Sacred Earth Collection"
+      },
+      "fields": {
+        "products": "Ich interessiere mich für",
+        "name": "Name",
+        "email": "E-Mail",
+        "phone": "Telefon (optional)",
+        "address": "Adresse (optional)",
+        "message": "Grössen, Mengen oder Fragen (optional)",
+        "messagePlaceholder": "z. B. Holy Salt 500 g, 2× Chuncho-Kakao 100 g"
+      },
+      "submit": "Bestellanfrage senden",
+      "errors": {
+        "required": "Bitte gib Deinen Namen und Deine E-Mail an.",
+        "pick": "Bitte wähle mindestens ein Produkt oder schreib uns eine Nachricht.",
+        "generic": "Etwas ist schiefgelaufen. Bitte versuche es nochmals oder ruf uns an."
+      },
+      "success": {
+        "title": "Danke.",
+        "body": "Deine Bestellanfrage ist bei uns angekommen. Wir melden uns bald, um Deine Bestellung mit Dir abzustimmen."
+      },
+      "step1": "Schritt 1 · Produkte wählen",
+      "step2": "Schritt 2 · Deine Angaben",
+      "detailsTitle": "Wie erreichen wir Dich?",
+      "hints": {
+        "nights": "Ein digitaler Wegbegleiter, per E-Mail an Dich.",
+        "salt": "Nur für kurze Zeit. Gib unten die gewünschte Grösse an.",
+        "collection": "Kakao, Räucherwerk, Pflanzenbäder, Salze und mehr."
+      },
+      "orCall": "Lieber persönlich? Ruf uns an:",
+      "selected": "{count, plural, one {# Produkt gewählt} other {# Produkte gewählt}}",
+      "continue": "Weiter"
     }
   },
   "about": {

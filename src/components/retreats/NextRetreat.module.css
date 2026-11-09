@@ -12,7 +12,7 @@
   text-align: center;
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.34em;
   text-transform: uppercase;
   color: #7a5a2e;
@@ -60,7 +60,7 @@
   margin: 0 0 34px;
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: #6b4e26;
@@ -98,7 +98,7 @@
   background: var(--terracotta);
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #fbf7ef;
@@ -167,7 +167,7 @@
 .futureDatesLabel {
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #7a5a2e;

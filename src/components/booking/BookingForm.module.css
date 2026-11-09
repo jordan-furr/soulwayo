@@ -12,7 +12,7 @@
 .eyebrow {
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.34em;
   text-transform: uppercase;
   color: var(--ochre);
@@ -58,7 +58,7 @@
 .label {
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #3A4A3E;
@@ -137,7 +137,7 @@
   border: none;
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #FBF7EF;

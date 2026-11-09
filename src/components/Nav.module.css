@@ -53,7 +53,7 @@
 .navLink {
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: rgba(246, 241, 232, 0.82);
@@ -65,7 +65,7 @@
 }
 
 .caret {
-  font-size: 9px;
+  font-size: 12px;
   margin-left: 2px;
 }
 
@@ -107,7 +107,7 @@
   padding: 10px 22px;
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   white-space: nowrap;
@@ -126,7 +126,7 @@
 .contactLink {
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #F6F1E8;
@@ -142,7 +142,7 @@
   padding: 4px 10px;
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   color: rgba(246, 241, 232, 0.7);
   cursor: pointer;
@@ -166,7 +166,7 @@
   border: 0;
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: #F6F1E8;
@@ -179,7 +179,7 @@
   border: 0;
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: #F6F1E8;
@@ -227,7 +227,7 @@
   background: #C5715A;
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #FBF7EF;

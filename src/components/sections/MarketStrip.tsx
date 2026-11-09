@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import Reveal from "@/components/Reveal";
 import styles from "./MarketStrip.module.css";
-import standImg from "../../../public/images/flyer-sacred-cacao-volketswil.jpg";
+import standImg from "../../../public/images/shop-market-stall.jpg";
 
 export default function MarketStrip() {
   const t = useTranslations("home.marketStrip");
@@ -14,7 +14,7 @@ export default function MarketStrip() {
         <Reveal className={styles.imageWrap}>
           <Image
             src={standImg}
-            alt="Soulwayo Sacred Cacao market stand in Volketswil"
+            alt={t("imageAlt")}
             className={styles.image}
             sizes="(max-width: 900px) 90vw, 600px"
           />
@@ -24,7 +24,7 @@ export default function MarketStrip() {
           <h2 className={styles.title}>{t("title")}</h2>
           <p className={styles.body}>{t("body")}</p>
           <p className={styles.details}>{t("details")}</p>
-          <Link href="/cacao/market" className={styles.cta}>
+          <Link href="/shop" className={styles.cta}>
             {t("cta")}
           </Link>
         </Reveal>

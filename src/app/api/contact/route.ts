@@ -6,9 +6,11 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { name, email, phone, message, interests, type } = body;
+    const { name, email, phone, message, interests, type, address } = body;
+    const isOrder = type === "order";
+    const hasItems = Array.isArray(interests) && interests.length > 0;
 
-    if (!name || !email || !message) {
+    if (!name || !email || (!message && !(isOrder && hasItems))) {
       return NextResponse.json(
         { ok: false, error: "Name, email and message are required." },
         { status: 400 }
@@ -23,9 +25,11 @@ export async function POST(request: Request) {
     }
 
     const isBooking = type === "booking";
-    const subject = isBooking
-      ? `New Booking Request from ${name}`
-      : `New Contact from ${name}`;
+    const subject = isOrder
+      ? `New Order Request from ${name}`
+      : isBooking
+        ? `New Booking Request from ${name}`
+        : `New Contact from ${name}`;
 
     const to = [
       process.env.CONTACT_EMAIL_1!,
@@ -34,8 +38,13 @@ export async function POST(request: Request) {
 
     const interestsList =
       interests && interests.length > 0
-        ? `\nInterests: ${interests.join(", ")}`
+        ? isOrder
+          ? `\n\nProducts:\n${interests.map((i: string) => `- ${i}`).join("\n")}`
+          : `\nInterests: ${interests.join(", ")}`
         : "";
+
+    const addressLine =
+      isOrder && address ? `\n\nAddress:\n${address}` : "";
 
     const phoneLine = phone ? `\nPhone: ${phone}` : "";
 
@@ -44,7 +53,7 @@ export async function POST(request: Request) {
       to,
       replyTo: email,
       subject,
-      text: `Name: ${name}\nEmail: ${email}${phoneLine}${interestsList}\n\nMessage:\n${message}`,
+      text: `Name: ${name}\nEmail: ${email}${phoneLine}${interestsList}${addressLine}\n\nMessage:\n${message || "(none)"}`,
     });
 
     return NextResponse.json({ ok: true });

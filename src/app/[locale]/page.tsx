@@ -5,6 +5,7 @@ import Hero from "@/components/sections/Hero";
 import MottoStrip from "@/components/sections/MottoStrip";
 import RetreatsFeature from "@/components/sections/RetreatsFeature";
 import MarketStrip from "@/components/sections/MarketStrip";
+import { NightsStrip } from "@/components/sections/HomeShop";
 import SpaceSection from "@/components/sections/SpaceSection";
 import PillarsSection from "@/components/sections/PillarsSection";
 import OurStoryIntro from "@/components/sections/OurStoryIntro";
@@ -27,6 +28,7 @@ export default async function Home({
         <RetreatsFeature />
         <SpaceSection />
         <MarketStrip />
+        <NightsStrip />
         <PillarsSection />
         <OurStoryIntro />
         <FinalCta />

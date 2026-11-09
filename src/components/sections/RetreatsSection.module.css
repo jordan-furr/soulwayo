@@ -84,7 +84,7 @@
   background: rgba(247, 244, 238, 0.06);
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.04em;
   color: #F7F4EE;
 }
@@ -122,7 +122,7 @@
 .tag {
   font-family: var(--font-raleway);
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.06em;
   color: rgba(216, 204, 184, 0.85);
 }

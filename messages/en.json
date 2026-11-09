@@ -7,7 +7,8 @@
     "retreats": "Retreats",
     "cacao": "Cacao",
     "cacaoMeditation": "Cacao Meditation",
-    "cacaoMarket": "Buy Cacao",
+    "cacaoMarket": "Cacao Market",
+    "shop": "Shop",
     "about": "About",
     "contact": "Contact",
     "home": "Home",
@@ -64,11 +65,22 @@
       "path3Dest2": "→ Ceremony, Fire & Cacao"
     },
     "marketStrip": {
-      "eyebrow": "Sacred Cacao Market",
-      "title": "Every Thursday at the market in Volketswil",
-      "body": "Sacred Cacao from Peru — as a warm drink or by the kilo — alongside our incense blends, botanical baths and herbal salts. Stop by for a warm cup.",
-      "details": "Every Thursday · 8:30 – 12:00 · Volketswil",
-      "cta": "Learn about our cacao"
+      "eyebrow": "Our market & shop",
+      "title": "Our Thursday market is closed for the winter",
+      "body": "Our market stand in Volketswil is taking a winter break and will be back in spring. Until then, everything from our market table, from Sacred Cacao to incense blends, botanical baths and herbal salts, is in our shop.",
+      "details": "Closed for winter · Back in spring",
+      "cta": "Explore the shop",
+      "imageAlt": "The Soulwayo market stall with cacao, incense and herbal salts"
+    },
+    "nightsStrip": {
+      "eyebrow": "New · Digital guide (PDF)",
+      "title": "The Magic of the 12 Sacred Nights",
+      "subtitle": "A Journey from Your Soul to Your Heart.",
+      "body": "Twelve sacred nights filled with rituals, shamanic wisdom, poetry and deep self-reflection. An invitation to release what no longer serves you and remember your true essence.",
+      "price": "From CHF 33 · sent to you by email",
+      "cta": "Order the PDF",
+      "more": "See all options",
+      "imageAlt": "The Magic of the 12 Sacred Nights"
     },
     "ourWork": {
       "eyebrow": "Our Work",
@@ -410,16 +422,110 @@
     "hero": {
       "eyebrow": "Sacred Cacao Market",
       "headline": "Sacred Cacao from Peru",
-      "body": "Every Thursday morning we bring our cacao, incense blends, botanical baths and herbal salts to the market in Volketswil. Come for a warm cup or take some home by the kilo.",
-      "note": "Every Thursday · 8:30 – 12:00 · Volketswil"
+      "body": "Our Thursday market in Volketswil is closed for the winter and will be back in spring. Until then, you can still order our cacao, incense blends, botanical baths and herbal salts directly from us.",
+      "note": "Closed for winter · Back in spring"
     },
     "visit": {
-      "eyebrow": "Find us at the market",
+      "eyebrow": "In spring, find us at the market",
       "title": "Soulwayo Sacred Cacao",
-      "date": "Every Thursday · 8:30 – 12:00",
+      "date": "Thursdays · 8:30 – 12:00 · from spring",
       "location": "Volketswil, Switzerland",
       "tagline": "Sacred Cacao from Peru — as a drink & by the kilo.",
       "cta": "Get in touch"
+    },
+    "menu": {
+      "notice": {
+        "eyebrow": "Closed for winter",
+        "title": "No in-person market until spring",
+        "body": "Our Thursday market at the Gemeindeplatz in Volketswil is closed for the winter, so you won’t find us there until spring. You can still order directly from us: place an order in the shop or give us a call, and we’ll arrange your order with you.",
+        "shop": "See everything in the shop"
+      },
+      "eyebrow": "Sacred Earth Collection",
+      "title": "Organically grown. Lovingly made.",
+      "subtitle": "From our own cultivation and small family farms, with respect for the earth, plants and people.",
+      "imageAlt": "Soulwayo Sacred Earth Collection menu with products and prices",
+      "items": [
+        {
+          "name": "Sacred Cacao",
+          "subtitle": "A Ritual for the Heart",
+          "prices": [
+            "Chuncho: 100 g CHF 9 · 1 kg CHF 90",
+            "Criollo: 100 g CHF 8 · 1 kg CHF 80"
+          ],
+          "body": "Natural cacao from Peru, for mindful moments, gratitude and heartfelt rituals.",
+          "variants": [
+            {
+              "name": "Chuncho",
+              "price": "100 g · CHF 9  ·  1 kg · CHF 90"
+            },
+            {
+              "name": "Criollo",
+              "price": "100 g · CHF 8  ·  1 kg · CHF 80"
+            }
+          ]
+        },
+        {
+          "name": "Shamanic Ritual Incense",
+          "prices": [
+            "Large 30 g · CHF 33",
+            "Small 15 g · CHF 17"
+          ],
+          "body": "Hand-blended plants and resins for a fragrant ritual of clarity, release and new beginnings."
+        },
+        {
+          "name": "Your Personal Soulwayo Incense",
+          "prices": [
+            "Price on request"
+          ],
+          "body": "Soulwayo means “soul path”. I can create a personal blend inspired by your intention and, symbolically, your date of birth."
+        },
+        {
+          "name": "Marirri",
+          "subtitle": "Botanical Cleansing Bath",
+          "prices": [
+            "CHF 21"
+          ],
+          "body": "Inspired by botanical baths used for cleansing rituals across cultures and generations. A moment of renewal and self-care."
+        },
+        {
+          "name": "Handmade Herbal Rock Salts",
+          "prices": [
+            "CHF 17 each"
+          ],
+          "body": "Bay leaf, rose, turmeric, marjoram and oregano salts. Hand-blended with rock salt and no added fluoride."
+        },
+        {
+          "name": "Bay Leaves",
+          "prices": [
+            "40 g · CHF 10"
+          ],
+          "body": "Aromatic leaves for cooking and plant rituals, traditionally symbolising clarity."
+        },
+        {
+          "name": "Hemp Tea",
+          "prices": [
+            "15 g · CHF 6"
+          ],
+          "body": "A mindful tea ritual for a quiet moment in your day."
+        },
+        {
+          "name": "Cacao Spice Blend",
+          "prices": [
+            "15 g · CHF 9",
+            "30 g · CHF 17",
+            "50 g · CHF 25"
+          ],
+          "body": "A lovingly crafted blend of aromatic spices to enrich your own cacao ritual.",
+          "quote": "A touch of earth, a pinch of fire, and a moment for your heart."
+        },
+        {
+          "name": "Oregano Oil",
+          "prices": [
+            "Price and bottle size on request"
+          ],
+          "body": "Aromatic botanical oil. Please enquire about ingredients and use."
+        }
+      ]
     },
     "gifts": {
       "eyebrow": "Soulwayo",
@@ -613,6 +719,167 @@
       "details": "Once a month, for the new moon · 7:00 – 9:00 PM",
       "cta": "Save your space",
       "secondary": "About the meditation →"
+    }
+  },
+  "shop": {
+    "hero": {
+      "eyebrow": "Soulwayo Shop",
+      "headline": "Gifts of the Earth",
+      "body": "Cacao, incense, botanical baths, salts and rituals. Our Volketswil market is closed for the winter, so order directly from us here.",
+      "orderTitle": "Contact to order",
+      "orderBody": "Please contact us to place an order.",
+      "photoAlt": [
+        "The Soulwayo market stall",
+        "Jars, herbal salts and earrings on the market table",
+        "Cacao and books at the Soulwayo stand",
+        "Seelenbilder cards and sprays at the market"
+      ],
+      "order": "Place an order"
+    },
+    "nav": {
+      "nights": "12 Sacred Nights",
+      "salt": "Holy Salt",
+      "collection": "Sacred Earth Collection",
+      "ritual": "Salt Ritual"
+    },
+    "nights": {
+      "eyebrow": "Digital guide · PDF",
+      "title": "The Magic of the 12 Sacred Nights",
+      "subtitle": "A Journey from Your Soul to Your Heart.",
+      "body": [
+        "With love and devotion, I have created a special guide for you.",
+        "Twelve sacred nights filled with rituals, shamanic wisdom, poetry and deep self-reflection.",
+        "An invitation to listen to the whisper of your soul, to release what no longer serves you and to remember your true essence."
+      ],
+      "optionsTitle": "Choose Your Soul Journey",
+      "options": [
+        {
+          "name": "Sacred Nights PDF · Introduction",
+          "note": "Special price for my community",
+          "price": "CHF 33"
+        },
+        {
+          "name": "Sacred Nights PDF · Regular",
+          "note": "Complete PDF",
+          "price": "CHF 44"
+        },
+        {
+          "name": "Premium · Meditations & Rituals",
+          "note": "With additional content",
+          "price": "CHF 66"
+        },
+        {
+          "name": "Personally Guided Sacred Nights",
+          "note": "With my personal guidance & impulses",
+          "price": "CHF 111"
+        }
+      ],
+      "quote": "The greatest magic is not found outside.\nIt begins in the very moment you find yourself again.",
+      "signoff": "With love, Sarah ♡",
+      "delivery": "Sent to you by email as a PDF.",
+      "cta": "Order the PDF",
+      "imageAlt": "The Magic of the 12 Sacred Nights – price list"
+    },
+    "salt": {
+      "eyebrow": "Available for a limited time",
+      "title": "Holy Salt",
+      "subtitle": "Halite crystal salt · Sacred Earth · The white gold of the earth",
+      "intro": "Our Holy Salt, pure halite crystal salt, is an ancient treasure born from the primordial oceans of the Earth. It carries the clarity of the elements, cleanses, protects and brings harmony to body, space and soul.",
+      "products": [
+        {
+          "name": "Holy Salt – Crystal",
+          "prices": [
+            "100 g · CHF 9",
+            "500 g · CHF 19",
+            "1 kg · CHF 29",
+            "Large blocks for home & space · from CHF 49"
+          ],
+          "body": "Bathing & cleansing, cooking with a natural mineral salt, and large raw halite blocks to create a cleansing, protective field and a clear, peaceful home. Also for salt rituals, smoke ceremonies, cleansing objects and mindful body care.",
+          "imageAlt": "Holy Salt crystal salt in 100 g, 500 g and 1 kg, and large blocks"
+        },
+        {
+          "name": "Holy Salt – Fine",
+          "prices": [
+            "CHF 15 / kg"
+          ],
+          "body": "Natural fine crystal salt from ancient oceans, rich in minerals. For bathing and cleansing, for seasoning your meals, and for a clear, harmonious atmosphere at home.",
+          "imageAlt": "Holy Salt fine halite crystal salt in a glass jar"
+        }
+      ],
+      "motto": "Cleansing · Protection · Clarity · Grounding",
+      "cta": "Order Holy Salt"
+    },
+    "collection": {
+      "cta": "Order from the collection"
+    },
+    "ritual": {
+      "eyebrow": "A ritual to take home",
+      "title": "The Shamanic Salt Ritual",
+      "subtitle": "A Return to Yourself",
+      "steps": [
+        {
+          "title": "Prepare your sacred water",
+          "body": "Fill your bathtub with pleasantly warm water and add about 100–200 g of salt. If you have sensitive skin, start with a smaller amount."
+        },
+        {
+          "title": "Return to your body",
+          "body": "Stay in the water for about 10–15 minutes. Breathe slowly and feel your feet, your belly and your heart. Let your thoughts pass by without holding on to them."
+        },
+        {
+          "title": "Speak your intention",
+          "body": "I release what I no longer wish to carry. I honour my past, but I do not belong to it. My body is my home. My boundaries are sacred. I return to myself in love, clarity and peace."
+        }
+      ],
+      "after": "After the bath, gently dry yourself, drink some water and give yourself a few minutes of rest. Use caution if you have open wounds, irritated skin or circulation issues.",
+      "disclaimer": "A salt bath can be physically relaxing, and the ritual itself can help reduce stress and bring you back into your body. There is, however, no scientific proof that salt baths remove negative energies, spirits, attachments or emotional trauma from the body.",
+      "quote": "You do not have to fight the darkness to find your light again.\nSometimes healing begins simply by lovingly perceiving yourself.",
+      "imageAlt": "Energetic attachments, cleansing and the healing power of the salt bath",
+      "imageCaption": "Open the full piece"
+    },
+    "strip": {
+      "eyebrow": "Order & advice",
+      "title": "Contact to order or to ask about a product",
+      "body": "Not sure which salt, incense or blend is right for you? Get in touch and we’ll gladly help you choose and arrange your order."
+    },
+    "order": {
+      "eyebrow": "Place an order",
+      "headline": "What would you like to order?",
+      "body": "Tap the products you’d like, then add your details. We’ll get back to you personally to arrange your order.",
+      "groups": {
+        "nights": "12 Sacred Nights · PDF",
+        "salt": "Holy Salt",
+        "collection": "Sacred Earth Collection"
+      },
+      "fields": {
+        "products": "I’m interested in",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone (optional)",
+        "address": "Address (optional)",
+        "message": "Sizes, quantities or questions (optional)",
+        "messagePlaceholder": "e.g. Holy Salt 500 g, 2× Chuncho cacao 100 g"
+      },
+      "submit": "Send order request",
+      "errors": {
+        "required": "Please add your name and email.",
+        "pick": "Please choose at least one product or write us a message.",
+        "generic": "Something went wrong. Please try again or give us a call."
+      },
+      "success": {
+        "title": "Thank you.",
+        "body": "Your order request has reached us. We’ll be in touch soon to arrange your order."
+      },
+      "step1": "Step 1 · Choose your products",
+      "step2": "Step 2 · Your details",
+      "detailsTitle": "Where should we reach you?",
+      "hints": {
+        "nights": "A digital guide, sent to you by email.",
+        "salt": "Available for a limited time. Tell us your size below.",
+        "collection": "Cacao, incense, botanical baths, salts and more."
+      },
+      "orCall": "Prefer to talk? Call us at",
+      "selected": "{count, plural, one {# item selected} other {# items selected}}",
+      "continue": "Continue"
     }
   },
   "about": {

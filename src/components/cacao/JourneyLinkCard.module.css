@@ -32,7 +32,7 @@
 .eyebrow {
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: rgba(246, 241, 232, 0.7);
@@ -62,7 +62,7 @@
   display: inline-block;
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #F6F1E8;

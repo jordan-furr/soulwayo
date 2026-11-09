@@ -42,7 +42,7 @@
   background: var(--terracotta);
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #FBF7EF;
@@ -58,7 +58,7 @@
 .ctaSecondary {
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #1E2B26;

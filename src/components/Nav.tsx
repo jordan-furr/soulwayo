@@ -7,8 +7,8 @@ import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import styles from "./Nav.module.css";
 import logo from "../../public/images/soulwayo-logo.jpeg";
 
-type NavKey = "retreats" | "cacao" | "about" | "cacaoMeditation" | "cacaoMarket";
-type NavHref = "/retreats" | "/cacao" | "/cacao/market" | "/about";
+type NavKey = "retreats" | "cacao" | "about" | "cacaoMeditation" | "cacaoMarket" | "shop";
+type NavHref = "/retreats" | "/cacao" | "/cacao/market" | "/shop" | "/about";
 type NavItem = {
   key: NavKey;
   href: NavHref;
@@ -25,6 +25,7 @@ const NAV_LINKS: NavItem[] = [
       { key: "cacaoMarket", href: "/cacao/market" },
     ],
   },
+  { key: "shop", href: "/shop" },
   { key: "about", href: "/about" },
 ];
 

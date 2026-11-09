@@ -3,6 +3,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import MarketHero from "@/components/cacao/MarketHero";
 import NextCeremony from "@/components/cacao/NextCeremony";
+import { WinterNotice } from "@/components/cacao/MarketMenu";
 import CacaoGifts from "@/components/cacao/CacaoGifts";
 import MeditationInvite from "@/components/cacao/MeditationInvite";
 import stallPoster from "../../../../../public/images/flyer-sacred-cacao-volketswil.jpg";
@@ -20,6 +21,7 @@ export default async function CacaoMarketPage({
       <Nav />
       <main>
         <MarketHero />
+        <WinterNotice />
         <NextCeremony
           namespace="market.visit"
           href="/contact"

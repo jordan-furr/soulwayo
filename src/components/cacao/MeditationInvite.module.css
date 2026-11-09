@@ -12,7 +12,7 @@
 .eyebrow {
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.34em;
   text-transform: uppercase;
   color: var(--sage-label);
@@ -40,7 +40,7 @@
   margin: 0 0 36px;
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: #dce8e0;
@@ -60,7 +60,7 @@
   background: var(--terracotta);
   font-family: var(--font-raleway);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #FBF7EF;
@@ -75,7 +75,7 @@
 .secondary {
   font-family: var(--font-raleway);
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.12em;
   color: #F6F1E8;
   text-decoration: none;
